@@ -321,7 +321,7 @@ _Clique no botão_ *"Adicionar em um grupo"*]],
 						w_custom = '*Tipo de Boas-Vindas*: `custom message`\n',
 						flood_info = '\n*Tolerância do flood:* `&&&1` (*Ação:* `&&&2`)\n',
 					},
-					broken_group = 'Não há configurações salvas para este grupo. \nPor favor, envie "/verificar " para resolver o problema',
+					broken_group = 'Não há configurações salvas para este grupo. \nPor favor, envie "/verificar" para resolver o problema',
 					Modlist = 'Lista de moderadores(as)',
 					About = 'Descrição',
 					Admin_mode = 'Admin',
@@ -394,7 +394,7 @@ _Clique no botão_ *"Adicionar em um grupo"*]],
 						arab = '&&&1 *removido(a)*: mensagem em árabe detectada',
 						flood_motivation = 'Banido por flood.',
 						media_motivation = 'Enviou um tipo de mídia proibido.',
-						first_warn = 'Este tipo de mídia *não é permitido* neste chat. A próxima vez, *&&&1*'
+						first_warn = 'Este tipo de mídia *não é permitido* neste grupo.'
 				},
 				kick_errors = {
 						[1] = 'Não sou admin, não posso remover pessoas.',
