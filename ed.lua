@@ -1,12 +1,26 @@
 return {
 		br = {
 			status = {
-				kicked = '&&&1 foi banido do grupo.',
-				left = '&&&1 deixou o grupo ou foi expulso, e foi proibido de entrar novamente.',
-				administrator = '&&&1 é um moderador.',
+				kicked = '&&&1 já foi banido deste grupo.',
+				left = '&&&1 deixou o grupo ou foi expulso.',
+				administrator = '&&&1 é o moderador do grupo.',
 				creator = '&&&1 é o criador do grupo.',
-				unknown = 'Este usuário não pertence a este grupo.',
+				unknown = 'Não está no grupo.',
 				member = '&&&1 é um membro do grupo.'
+			},
+			getban = {
+				header = '*O que você deseja fazer?* com o ',
+				nothing = '',
+				kick = 'Kick: ',
+				ban = 'Ban: ',
+				tempban = 'Ban Temporário: ',
+				flood = 'Removido por Flood: ',
+				warn = 'Removido por Avisos: ',
+				media = 'Removido por Mídia: ',
+				arab = 'Removido por Caracteres Arabes: ',
+				rtl = 'Removido por Caracteres RTL: ',
+				kicked = '*Removido!*',
+				banned = '*Banido!*'
 			},
 			bonus = {
 				general_pm = '*Pronto*, Eu acabei de te mandar uma mensagem no privado.',
@@ -17,6 +31,10 @@ return {
 				settings_header = 'Configurações atuais do *grupo*:\n\n',
 				reply = '*Responda alguém* para usar este comando, ou escreva o *nome de usuário*.',
 				too_long = 'Este texto é muito longo, não posso enviar.',
+				menu_cb_settings = 'Toque no icone!',
+				menu_cb_flood = 'Use a linha abaixo para alterar as configurações de flood!',
+				menu_cb_warns = 'Use a linha abaixo para alterar as configurações de avisos!',
+				menu_cb_media = 'Tap on a switch!',
 				msg_me = '_Primeiro me envie uma mensagem no privado para que eu possa então está te respondendo._',
 				tell = '*ID do grupo*: &&&1'
 			},
@@ -45,41 +63,64 @@ return {
 /adddesc - `Adicionar mais texto para complementar a descrição que está definida para este grupo.`
 /deflink - `Definir um link de convite para o grupo.`
 ]],
-					flood = [[*Comandos flood*:
+					flood = [[
+⚙ *Configurações do sistema Anti-flood*
 
-/comando1 - `Descrição`
-/comando2 - `Descrição`
-/comando3 - `Descrição`
-/comando4 - `Descrição`
-/comando5 - `Descrição`
-/comando6 - `Descrição`
+`/flood [`*on / off*`]` - Para ligar / desligar o sistema anti-flood.
+`/flood [número]` - Para definir quantas mensagens um usuário pode escrever em 5 segundos.
+*Obs*: o número deve ser superior a 3 e menor que 26.
+
+`/flood [`*kick / ban*`]` - Para escolher a ação a ser executada uma vez que o limite do anti-flood  for disparado.
+*Nota:* você pode gerenciar as configurações de anti-flood em particular a partir do teclado embutido enviando "`/menu`.
 ]],
-					media = [[*Comandos media*:
+					media = [[
+📁 *Moderadores: configurações de mídia*
 
-/comando1 - `Descrição`
-/comando2 - `Descrição`
-/comando3 - `Descrição`
-/comando4 - `Descrição`
-/comando5 - `Descrição`
-/comando6 - `Descrição`
+`/media` - Para receber via mensagem privada um teclado embutido para mudar todas as configurações de mídia.
+`/media [kick | ban| allow]. [tipo]` - Para alterar a ação a ser executada quando a mídia específica é enviada.
+*Exemplo:*.`/media kick sticker`
+`/media list` - Para mostrar as configurações atuais para todas as mídias.
+*Lista de mídias suportadas:* `imagens, áudios, vídeos, sticker, GIF, mensagem de voz, contatos, arquivos, link`
 ]],
-					welcome = [[*Comandos welcome*:
+					welcome = [[
+⚙ *Configurações de Boas-Vindas*
 
-/comando1 - `Descrição`
-/comando2 - `Descrição`
-/comando3 - `Descrição`
-/comando4 - `Descrição`
-/comando5 - `Descrição`
-/comando6 - `Descrição`
+`/enable  welcome` - Para habilitar mensagem de boas-vindas, quando um novo usuário novo entrar no grupo.
+`/disable welcome` - Para desabilitar a mensagem de boas-vindas.
+*--------------------*
+💢 *Mensagem de boas vindas personalizadas:*
+
+`/welcome [`texto`]` *$tags*  - Para personalizar suas mensagens de boas-vindas com tags de substuição, e adicioná-las em qualquer lugar antes ou depois do texto e se preferir até no meio de um texto.
+*Tags disponíveis:*
+`$name` - (será substituído pelo nome do novo membro)
+`$id` - (será substituído com o id do novo membro)
+`$title` - (será substituído pelo título do grupo).
+*-------------------------*
+💢 *Personalizar com GIF ou sticker como uma mensagem de boas-vindas*
+
+Você pode usar: um gif especial ou sticker como mensagem de boas-vindas. Para configurá-lo, responda diretamente a um gif ou sticker com o comando `/welcome`.
+*------------------*
+💢 *Complementando mensagem de boas vindas*
+
+Você pode complementar sua mensagem de boas-vindas adicionando regras, descrição do grupo e até a lista moderadores. Você pode complementá-las escrevendo `/welcome` seguido pelo código que desejar complementar na mensagem de boas vindas.
+Códigos:
+`r` = Para complementar as regras do grupo na mensagem de boas-vindas.
+`a` = Para complementar as descrições do grupo na mensagem de boas-vindas.
+`m` = Para complementar a lista de moderadores do grupo na mensagem de boas-vindas.
+
+*OBS:* Você pode complementar até todos os códigos, basta escrevê-los juntos, exemplo:  "`/welcome ram`" - irá complementar as regras do grupo, descrições e lista de moderadores na mensagem de boas-vindas.
 ]],
-					extra = [[*Comandos extra*:
+					extra = [[
+🖥 *Comandos extras*
 
-/comando1 - `Descrição`
-/comando2 - `Descrição`
-/comando3 - `Descrição`
-/comando4 - `Descrição`
-/comando5 - `Descrição`
-/comando6 - `Descrição`
+`/extra [#tags] [resposta]` - Para definir uma resposta á ser enviada quando alguém escreve a tags pré-programada.
+
+*Examplo*: com "`/extra #hello Bom dia`" o bot irá responder "Bom dia", cada vez que alguém escrever `#hello`.
+
+`/extra list` - Para obter a lista de seus comandos personalizados.
+`/extra del [#tags]` - Para eliminar o tags criada e sua mensagem.
+`/disable extra` - Para somente administradores poderem usar o comando `#extra` no grupo. *Para os outros membros, o bot irá responder no privado.*
+`/enable extra` - Para todos poderem usar o comando `#extra` no grupo.
 ]],
 					warns = [[*Comandos warns*:
 
@@ -90,23 +131,19 @@ return {
 /veradvert - `Visualizar advertências.`
 /remadvert - `Remover advertências.`
 ]],
-					char = [[*Caracteres Especiais RTL/DPE (Direita para esquerda)*:
+					char = [[
+✍🏻 *Caracteres especiais*
 
-/comando1 - `Descrição`
-/comando2 - `Descrição`
-/comando3 - `Descrição`
-/comando4 - `Descrição`
-/comando5 - `Descrição`
-/comando6 - `Descrição`
+`/disable rtl` - Para que o bot possa explusar todos aqueles que enviarem textos da direita para a esquerda.
+`/enable rtl` - Para o bot ignorar todo texto da direita para a esquerda.
+`/disable arab` - Para o bot remover todos aqueles que enviarem uma mensagem com caracteres árabes.
+`/enable arab` - Para o bot ignorar caracteres árabes.
 ]],
-					links = [[*Comandos links*:
+					links = [[
+⚙ *Configurações de referençias para o grupo.*
 
-/comando1 - `Descrição`
-/comando2 - `Descrição`
-/comando3 - `Descrição`
-/comando4 - `Descrição`
-/comando5 - `Descrição`
-/comando6 - `Descrição`
+`/setlink` `[`*link|no*`]` - Para definir um link para grupo, para que ele possa ser solicitado por outros administradores, ou desativado.
+`/link` -  Para obter o link do grupo.
 ]],
 					lang = [[*Comandos lang*:
 /comando1 - `Descrição`
@@ -116,14 +153,17 @@ return {
 /comando5 - `Descrição`
 /comando6 - `Descrição`
 ]],
-					settings = [[*Comandos settings*:
+					settings = [[
+⚙ *Configurações de Grupo*
 
-/comando1 - `Descrição`
-/comando2 - `Descrição`
-/comando3 - `Descrição`
-/comando4 - `Descrição`
-/comando5 - `Descrição`
-/comando6 - `Descrição`
+`/menu` - Para gerenciar as configurações do grupo. (faça isto em um grupo que você seja dono ou moderador)
+`/adminmode on` - Para que cada comando executado passe a ser enviado em uma mensagem privada.
+`/adminmode off` - Para que os comandos tornem a ser enviados no grupo novamente quando executado.
+`/desabilitar [`*rules|about|adminlist|extra*`]` - Para que o comando desabilitado passe a ser executado apenas por moderadores de grupo.
+`/habilitar [`*regras | sobre | AdminList | extras*`]` - Para que os comandos tornem a se tornar disponíveis para todos.
+`/habilitar report` - Para tornar os usuários capazes de enviar feedback ou relatório para moderadores, usando "`@admin`" como comando.
+`/desabilitar report` - Para proibir os usuários de enviar feedback ou relatório aos moderadores.
+`/report [`*on / off*`]` (diretamente á uma mensagem) - Para permitir ou proibir um único usuário de usar "`@admin`" como comando.
 ]],
 				},
 				all = [[*Comandos para Usuários*:
@@ -220,20 +260,21 @@ _Clique no botão_ *"Adicionar em um grupo"*]],
 					},
 				setabout = {
 						no_bio = '*SEM DESCRIÇÃO.*',
-						no_bio_add = '*Ainda existe uma descrição definida para este grupo*.\nUse "/adddesc [descrição]" para definir uma descrição para este grupo.',
+						no_bio_add = '*Ainda existe uma descrição definida para este grupo.*\nUse "/adddesc [descrição]" para adicionar uma descrição para este grupo.',
 						no_input_add = 'Por favor envie "/adddesc" em seguida a descrição que deseja adicionar',
 						added = '*Descrição adicionada:*\n\n"&&&1"',
 						no_input_set = 'Por favor envie "/defdesc" em seguida o texto que você deseja complementar a sua descrição.',
-						clean = 'A descrição foi limpada.',
+						clean = '*A descrição do grupo foi removida com sucesso!*',
 						new = '*Nova descrição:*\n\n"&&&1"',
+						about_setted = 'A Nova descrição foi *salva com sucesso*!'
 				},
 				setrules = {
 						no_rules = '*SEM REGRAS.*',
-						no_rules_add = '*Sem regras* para este grupo.\nUse /addregras [regras] para definir as regras deste grupo.',
-						no_input_add = 'Por favor envie "/addregras" em seguida as Regras para este grupo',
+						no_rules_add = '*Sem regras* para este grupo.\nUse /defregras [regras] para definir as regras deste grupo.',
+						no_input_set = 'Por favor envie "/defregras" em seguida as Regras para este grupo',
 						added = '*Regras adicionadas:*\n"&&&1"',
-						no_input_set = 'Por favor envie "/defregras" em seguida o texto que você deseja complementar nas regras deste grupo.',
-						clean = 'As regras foram removidas.',
+						no_input_add = 'Por favor envie "/addregras" em seguida o texto que você deseja complementar nas regras deste grupo.',
+						clean = '*A regra do grupo foi removida com sucesso!*',
 						new = '*Novas regras:*\n"&&&1"',
 						rules_setted = 'Novas Regras *Salvadas com sucesso*!'
 				},
@@ -254,8 +295,8 @@ _Clique no botão_ *"Adicionar em um grupo"*]],
 						extra_locked = 'Comandos #extra agora estão disponíveis *apenas para moderadores(as)*',
 						rtl_already = 'Anti-RTL já está *ativado*',
 						rtl_locked = 'Anti-RTL agora está *ativado*',
-						flood_already = 'Anti-flood is already *on*',
-						flood_locked = 'Anti-flood is now *on*',
+						flood_already = 'Anti-flood is already *off*',
+						flood_locked = 'Anti-flood is now *off*',
 						arab_already = 'Anti-árabe já está *ativado*',
 						arab_locked = 'Anti-árabe agora está *ativado*',
 						report_already = 'comando @admin já está *desabilitado*',
@@ -280,8 +321,8 @@ _Clique no botão_ *"Adicionar em um grupo"*]],
 						extra_unlocked = 'Comandos # Extra agora estão disponíveis *para todos(as)*',
 						rtl_already = 'Anti-RTL já está *desligado*',
 						rtl_unlocked = 'Anti-RTL agora está *desligado*',
-						flood_already = 'Anti-flood is already *off*',
-						flood_unlocked = 'Anti-flood is now *off*',
+						flood_already = 'Anti-flood is already *on*',
+						flood_unlocked = 'Anti-flood is now *on*',
 						arab_already = 'Anti-árabe já está *desligado*',
 						arab_unlocked = 'Anti-árabe agora está *desligado*',
 						report_already = 'O comando @admin já está *disponível*',
@@ -321,18 +362,31 @@ _Clique no botão_ *"Adicionar em um grupo"*]],
 						w_custom = '*Tipo de Boas-Vindas*: `custom message`\n',
 						flood_info = '\n*Tolerância do flood:* `&&&1` (*Ação:* `&&&2`)\n',
 					},
-					broken_group = 'Não há configurações salvas para este grupo. \nPor favor, envie "/verificar" para resolver o problema',
-					Modlist = 'Lista de moderadores(as)',
-					About = 'Descrição',
-					Admin_mode = 'Admin',
-					Arab = 'Árabe',
-					Extra = 'Extra',
-					Flag = 'Flag',
-					Flood = 'Flood',
-					Report = 'Denúncia',
-					Rules = 'Regras',
-					Rtl = 'RLT',
-					Welcome = 'Mensagem de Boas-Vindas',
+					menu ={
+						Modlist = 'Lista de moderadores(as)',
+						About = 'Descrição',
+						Admin_mode = 'Admin',
+						Arab = 'Árabe',
+						Extra = 'Extra',
+						Flag = 'Flag',
+						Flood = 'Flood',
+						Report = 'Denúncia',
+						Rules = 'Regras',
+						Rtl = 'RLT',
+						Welcome = 'Mensagem de Boas-Vindas',
+					},
+					media_list = {
+						image =	'Imagem',
+						audio =	'Áudio',
+						video =	'Vídeo',
+						sticker =	'Sticker',
+						gif =	'Gif',
+						voice =	'Voz',
+						contact =	'Contato',
+						file =	'Arquivo',
+						link =	'Link',
+					},
+				broken_group = 'Não há configurações salvas para este grupo. \nPor favor, envie "/verificar" para resolver o problema',
 				},
 				warn = {
 						warn_reply = '`Responda a uma mensagem para adventir o(a) usuário(a).`',
@@ -405,6 +459,7 @@ _Clique no botão_ *"Adicionar em um grupo"*]],
 				errors = {
 						user = '`Ocorreu um erro ao executar este comando.`\n\n*Entre no Canal* @RoboED *para ficar por dentro das atualizações do nosso querido Robô de Mimetal.*',
 						dev = 'Ocorreu um erro.\n\nExecute o comando:\n\n',
+						mapa = 'Não há resultados!'
 				},
 				flag = {
 						no_input = 'Responda a uma mensagem para reportá-la para um(a) moderador(a) ou escreva algo ao lado de \'@admin\' para enviar um feedback a eles(as)',
@@ -432,16 +487,22 @@ _Clique no botão_ *"Adicionar em um grupo"*]],
 				},
 				all = {
 						initial = '_Clique em uma das_ *opções* _desejadas para obter informações sobre:_',
-						menu_first = 'Clique nos *ícones* para mudar as *configurações do grupo.*\n_Ou use a ultima linha para configurar o anti-flood._',
-						media_first = 'Clique nos *ícones* para mudar as *configurações do grupo.*',
+						menu_first = 'Clique nos *ícones* para mudar as *configurações do grupo.*',
 						menu = '_Eu enviei o menu no privado._',
 						group_success = '_Eu enviei a mensagem de ajuda no privado._',
 						group_not_success = '_Você precisa iniciar uma conversa no_ *privado* _primeiro._',
 				},
 				pv = 'Esse comando está disponível apenas em grupos',
 				not_mod = 'Você *não* é um(a) moderador(a)',
-				breaks_markdown = 'Esse texto apresenta problemas com markdown.\nVerifique quantas vezes você usou * ou _ ou `',
 				not_admin = '*Ops*, Se você quer que eu administre seu grupo, me adicione como administrador primeiro.',
+				breaks_markdown = [[O texto que você me enviou está com problemas no markdown, certifique-se de que todas as palavras estejam escritas corretamente com o sistema de formatação.
+Use a sintaxe a seguir em sua mensagem:
+
+		*Texto Negrito*
+		_Texto Itálico_
+		[Texto](URL)
+		`Código embutido de largura fixa`
+		```Bloco de código embutido de largura fixa```]],
 				evaluate= [[*Você gosta do* [Robô E D](https://telegram.me/EdRobot)?
 
 *Então nos avalie!*
