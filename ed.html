@@ -2,42 +2,35 @@
 <html dir=”ltr” lang=”pt-br“>
 
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta charset=utf-8>
+	<meta http-equiv=X-UA-Compatible content="IE=edge">
 	<title>Synko - Moeda</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<meta name="description" content="Telegram Bot Developers @RoboED" />
-	<meta name="keywords" content="robô, inteligência artificial, meio ambiente, conpet, petrobras, preservação, recursos naturais, petróleo, racionalização, uso da energia, personagem virtual, chatter bot, robo ed, redis, telegram, bot, synko" />
-	<meta name="author" content="FREEHTML5.CO" />
-	<link rel="shortcut icon" href="http://synko.com.br/images/icon/favicon.png" />
-	<link rel="apple-touch-icon" href="http://synko.com.br/images/icon/favicon.png" />
-	<meta name="theme-color" content="#6389a8" />
-	<meta name="twitter:title" content="Synko - Team" />
-	<meta name="twitter:image" content="http://synko.com.br/images/icon/favicon.png" />
-	<meta name="twitter:url" content="www.synko.com.br" />
-	<meta name="twitter:card" content="" />
-	<meta property="og:title" content="Synko - Team" />
-	<meta property="og:image" content="http://synko.com.br/images/icon/favicon.png" />
-	<meta property="og:url" content="www.synko.com.br" />
-	<meta property="og:site_name" content="Synko - Team" />
-	<meta property="og:description" content="Bot Team Telegram" />
-	<link href='https://fonts.googleapis.com/css?family=Work+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700italic,700' rel='stylesheet' type='text/css'>
-	<link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
-	<link rel="stylesheet" href="css/animate.css">
-	<link rel="stylesheet" href="css/flexslider.css">
-	<link rel="stylesheet" href="css/icomoon.css">
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<link rel="stylesheet" id="theme-switch" href="css/style-light.css">
-	<link rel="stylesheet" href="css/reset.css">
-	<script src="js/hora.js"></script>
-	<script src="js/jquery.min.js"></script>
-	<script src="js/jquery.cookie.js"></script>
-	<script src="js/jquery.tablesorter.js"></script>
+	<meta name=viewport content="width=device-width, initial-scale=1" />
+	<meta name=description content="Telegram Bot Developers @RoboED" />
+	<meta name=keywords content="robô, inteligência artificial, meio ambiente, conpet, petrobras, preservação, recursos naturais, petróleo, racionalização, uso da energia, personagem virtual, chatter bot, robo ed, redis, telegram, bot, synko" />
+	<meta name=author content=FREEHTML5.CO />
+	<meta name=theme-color content=#6389a8 />
+
+	<link rel="shortcut icon" href=images/icon/favicon.svg />
+	<link rel=apple-touch-icon href=images/icon/favicon.svg />
+
+	<link href='https://fonts.googleapis.com/css?family=Work+Sans:400,300,600,700' rel=stylesheet type=text/css />
+	<link href="https://fonts.googleapis.com/css?family=Poiret+One" rel=stylesheet type=text/css />
+	<link rel=stylesheet href=css/animate.css>
+	<link rel=stylesheet href=css/bootstrap.css>
+	<script src=js/jquery.min.js></script>
+	<script src=js/jquery.cookie.js></script>
 	<script>
 		$(function() {
 			$("#header").load("div/header.html");
 			$("#footer").load("div/foo.html");
+			$("#helpED").load("tables/helpEd.html");
+		});
+	</script>
+	<script src="js/jquery.tablesorter.js"></script>
+	<script>
+		$(document).ready(function() {
+			$("#helpED").tablesorter();
 		});
 	</script>
 	<script>
@@ -47,17 +40,12 @@
 			$('html, body').css('background', '#222222');
 		}
 	</script>
-	<script>
-		$(document).ready(function() {
-			$("#CotTable").tablesorter();
-		});
-	</script>
-	<script src="js/jquery.easing.1.3.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/jquery.waypoints.min.js"></script>
-	<script src="js/jquery.flexslider-min.js"></script>
-	<script src="js/viewport-units-buggyfill.js"></script>
-	<script src="js/modernizr-2.6.2.min.js"></script>
+	<script src=js/jquery.easing.1.3.js></script>
+	<script src=js/bootstrap.min.js></script>
+	<script src=js/jquery.waypoints.min.js></script>
+	<script src=js/jquery.flexslider-min.js></script>
+	<script src=js/viewport-units-buggyfill.js></script>
+	<script src=js/modernizr-2.6.2.min.js></script>
 </head>
 
 <body oncontextmenu="return false" onkeydown="return false" onselectstart="return false">
@@ -74,11 +62,76 @@
 					<div class="col-md-12">
 						<div class="row row-bottom-padded-sm animate-box">
 							<div class="col-md-3">
-								<h3 class="fh5co-section-heading"><span class="fh5co-number"><sup>1</sup></span>Atualizações</h3>
+								<h3 class="fh5co-section-heading"><span class="fh5co-number"><sup></sup></span> Tabela de moedas</h3>
 							</div>
 							<div class="col-md-9">
 								<p class="fh5co-lead">Esta lista consiste nas moedas atualmente em circulação, organizadas por país ou território dependente.</p>
+							</div>
+						</div>
+						<div class="row row-bottom-padded-sm animate-box">
+							<div class="col-md-3">
+								<h3 class="fh5co-section-heading"><span class="fh5co-number"><sup></sup></span></h3>
+							</div>
+							<div class="col-md-9">
 								<p>Clique em um dos cabeçalhos para organizar a lista.</p>
+								<table id="helpED" class="tablesorter" align="center">
+									<thead style="cursor:pointer">
+										<tr>
+											<th>Comando</th>
+											<th>Descrição</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>ARS</td>
+											<td>Peso Argentino</td>
+										</tr>
+										<tr>
+											<td>W</td>
+											<td>Peso Bolíviano</td>
+										</tr>
+										<tr>
+											<td>BRL</td>
+											<td>Real Brasileiro</td>
+										</tr>
+										<tr>
+											<td>BTC</td>
+											<td>Bitcoin</td>
+										</tr>
+										<tr>
+											<td>CAD</td>
+											<td>Dólar Canadense</td>
+										</tr>
+										<tr>
+											<td>CHF</td>
+											<td>Franco Suíço</td>
+										</tr>
+										<tr>
+											<td>CNY</td>
+											<td>Yuan Chines</td>
+										</tr>
+										<tr>
+											<td>EUR</td>
+											<td>Euro</td>
+										</tr>
+										<tr>
+											<td>GBP</td>
+											<td>Libra Esterlina</td>
+										</tr>
+										<tr>
+											<td>MXN</td>
+											<td>Peso Mexicano</td>
+										</tr>
+										<tr>
+											<td>USD</td>
+											<td>Dolár Americano</td>
+										</tr>
+										<tr>
+											<td>YER</td>
+											<td>Iene Japonês</td>
+										</tr>
+									</tbody>
+								</table>
 							</div>
 						</div>
 					</div>
