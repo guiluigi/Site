@@ -1,174 +1,235 @@
 <!DOCTYPE html>
-<html class="no-js">
-<script>
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html dir=”ltr” lang=”pt-br“ class="no-js">
+<!--<![endif]-->
 
-	ga('create', 'UA-82620210-1', 'auto');
-	ga('send', 'pageview');
-</script>
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<script>
-	(adsbygoogle = window.adsbygoogle || []).push({
-		google_ad_client: "ca-pub-2798297749593422",
-		enable_page_level_ads: true
-	});
-</script>
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Synko - Team</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Bot Team Telegram" />
-	<meta name="keywords" content="robô, inteligência artificial, meio ambiente, conpet, petrobras, preservação, recursos naturais, petróleo, racionalização, uso da energia, personagem virtual, chatter bot, robo ed, redis, telegram, bot, synko" />
-	<meta name="author" content="FREEHTML5.CO" />
-	<meta name="theme-color" content="#6389a8">
-
-	<meta name="twitter:title" content="Synko - Team" />
-	<meta name="twitter:image" content="images/favicon.png" />
-	<meta name="twitter:url" content="www.synko.com.br" />
-	<meta name="twitter:card" content="" />
-
-	<meta property="og:title" content="Synko - Team"/>
-	<meta property="og:image" content="images/favicon.png"/>
-	<meta property="og:url" content="www.synko.com.br"/>
-	<meta property="og:site_name" content="Synko - Team"/>
-	<meta property="og:description" content="Bot Team Telegram"/>
-
-	<link rel="shortcut icon" href="images/favicon.png">
-
-	<link href='https://fonts.googleapis.com/css?family=Work+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700italic,700' rel='stylesheet' type='text/css'>
+	<meta charset=utf-8>
+	<meta http-equiv=X-UA-Compatible content="IE=edge">
+	<title>Synko - Developers</title>
+	<meta name=viewport content="width=device-width, initial-scale=1" />
+	<meta name=description content="Telegram Bot Developers @RoboED" />
+	<meta name=keywords content="robô, inteligência artificial, meio ambiente, conpet, petrobras, preservação, recursos naturais, petróleo, racionalização, uso da energia, personagem virtual, chatter bot, robo ed, redis, telegram, bot, synko" />
+	<meta name=author content=FREEHTML5.CO />
+	<meta name=theme-color content=#6389a8 />
+	<!-- Favicon -->
+	<link rel="shortcut icon" href=images/icon/favicon.svg />
+	<!-- Fonts -->
+	<link href='https://fonts.googleapis.com/css?family=Work+Sans:400,300,600,700' rel=stylesheet type=text/css />
+	<link href="https://fonts.googleapis.com/css?family=Poiret+One" rel=stylesheet type=text/css />
+	<!-- .css -->
 	<link rel="stylesheet" href="css/animate.css">
 	<link rel="stylesheet" href="css/flexslider.css">
 	<link rel="stylesheet" href="css/icomoon.css">
 	<link rel="stylesheet" href="css/bootstrap.css">
-	<link rel="stylesheet" id="theme-switch" href="css/style-light.css">
-	<link rel="stylesheet" href="css/reset.css">
-
-	<script src="js/jquery.min.js"></script>
-	<script src="js/jquery.cookie.js"></script>
+	<!-- .js -->
+	<script src=js/jquery.min.js></script>
+	<script src=js/jquery.cookie.js></script>
+	<script src=js/jquery.easing.1.3.js></script>
+	<script src=js/bootstrap.min.js></script>
+	<script src=js/jquery.waypoints.min.js></script>
+	<script src=js/jquery.flexslider-min.js></script>
+	<script src=js/viewport-units-buggyfill.js></script>
+	<script src=js/modernizr-2.6.2.min.js></script>
+	<script src="js/jquery.tablesorter.js"></script>
 	<script>
-	if ( $.cookie('styleCookie') === 'style-light.css') {
-		$('html, body').css('background', '#eeeeee');
-	} else if ($.cookie('styleCookie') === 'style.css') {
-		$('html, body').css('background', '#222222');
-	}
+		$(function() {
+			$("#header").load("div/header.html");
+			$("#footer").load("div/foo.html")
+		});
 	</script>
-	<script src="js/jquery.easing.1.3.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/jquery.waypoints.min.js"></script>
-	<script src="js/jquery.flexslider-min.js"></script>
-	<script src="js/viewport-units-buggyfill.js"></script>
-	<script src="js/main.js"></script>
-	<script src="js/modernizr-2.6.2.min.js"></script>
+	<script>
+		$(document).ready(function() {
+			$("#cmdEDTable").tablesorter();
+		});
+	</script>
+	<script>
+		if ($.cookie("styleCookie") === "style-light.css") {
+			$("html, body").css("background", "#eeeeee")
+		} else {
+			if ($.cookie("styleCookie") === "style.css") {
+				$("html, body").css("background", "#222222")
+			}
+		};
+	</script>
 </head>
-<!--oncontextmenu="return false" onkeydown="return false" onselectstart="return false"-->
+
 <body oncontextmenu="return false" onkeydown="return false" onselectstart="return false">
-
-	<script language="JavaScript" type="text/javascript">
-	var horario = new Date();
-	var hora = horario.getHours();
-	var exibe = '<link rel="stylesheet" id="theme-switch" href="css/style.css">';
-	if ((hora >= 6) && (hora < 12)) {
-		exibe = '<link rel="stylesheet" id="theme-switch" href="css/style-light.css">';
-	} else if ((hora >= 12) && (hora < 19)) {
-		exibe = '<link rel="stylesheet" id="theme-switch" href="css/style-light.css">';
-	}
-	document.write(exibe);
-	</script>
-
 	<div class="fh5co-loader"></div>
-
 	<div id="fh5co-page">
-		<nav id="fh5co-nav" role="navigation">
-			<ul>
-				<li class="animate-box fh5co-active"><a href="index.html" class="transition">Inicio</a></li>
-				<li class="animate-box"><a href="sobre.html" class="transition">Sobre</a></li>
-			</ul>
-		</nav>
-
-		<header id="fh5co-header" role="banner" class="fh5co-project js-fh5co-waypoint no-border" data-colorbg="#222222" data-next="yes">
+		<div id="header"></div>
+		<div class="js-fh5co-waypoint fh5co-project-detail" id="fh5co-main" data-colorbg="">
 			<div class="container">
-				<div class="fh5co-text-wrap animate-box">
-					<div class="fh5co-intro-text">
-						<h1>Synko Team</h1><br>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="row row-bottom-padded-sm animate-box">
+							<div class="col-md-3">
+								<h3 class="fh5co-section-heading"><span class="fh5co-number"><sup>ED</sup></span> Lista de Comandos</h3>
+							</div>
+							<div class="col-md-9">
+								<p class="fh5co-lead">Lista de todos os comandos do Robô ED.</p>
+								<p>Clique nos cabeçalhos para organizar a lista.</p>
+							</div>
+						</div>
+						<div class="row row-bottom-padded-sm animate-box">
+							<div class="col-md-3">
+								<h3 class="fh5co-section-heading"><span class="fh5co-number"><sup></sup></span></h3>
+							</div>
+							<div class="col-md-12" style="overflow-x:auto;">
+								<table id="cmdEDTable" class="tablesorter">
+									<thead>
+										<tr>
+											<th>Comando</th>
+											<th>Descrição</th>
+											<th>Exemplo</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>9GAG</td>
+											<td>Imagens aleatórias do site 9GAG.com.</td>
+											<td>/9gag</td>
+										</tr>
+										<tr>
+											<td>AFK</td>
+											<td>Decretar ausência e motivo</td>
+											<td>/afk</td>
+										</tr>
+										<tr>
+											<td>Calculadora</td>
+											<td>Calcular a expressão e enviar o resultado.</td>
+											<td>/calc <b>Expressão</b></td>
+										</tr>
+										<tr>
+											<tr>
+												<td>Clima</td>
+												<td>Mostar informações sobre o clima, envie o comando e em seguida o nome da cidade ou sigla.</td>
+												<td>/clima <b>Texto</b></td>
+											</tr>
+											<td>Fale</td>
+											<td>Enviar um áudio de acordo com o texto</td>
+											<td>/fale <b>Texto</b></td>
+										</tr>
+										<tr>
+											<td>Spotify</td>
+											<td>Para pesquisar músicas no Spotify, envie o comando e em seguida o nome da música que preferir.</td>
+											<td>/spotify <b>Texto</b></td>
+										</tr>
+										<tr>
+											<td>RE</td>
+											<td>Alerta de status.</td>
+											<td>/re <b> Texto</b></td>
+										</tr>
+										<tr>
+											<td>Mapa</td>
+											<td>Para localizar sua cidade/estado no mapa.</td>
+											<td>/mapa <b>Texto</b></td>
+										</tr>
+										<tr>
+											<td>Hora</td>
+											<td> Informar que horas são em sua cidade ou local mencionado.</td>
+											<td>/hora <b>Texto</b></td>
+										</tr>
+										<tr>
+											<td>GIF</td>
+											<td>Enviar um Gif relacionado com o assunto mencionado.</td>
+											<td>/gif <b>Texto</b></td>
+										</tr>
+										<tr>
+											<td>Girar</td>
+											<td>Descrição</td>
+											<td>/girar <b>Número</b></td>
+										</tr>
+										<tr>
+											<td>Perguntar</td>
+											<td>Para fazer perguntas simples ao bot.</td>
+											<td>/perguntar <b>Pergunta?</b></td>
+										</tr>
+
+										<tr>
+											<td>Cotação</td>
+											<td>Veja a cotação do dia: Dólar, Euro, e outras moedas.</td>
+											<td>/cot <b>Texto</b></td>
+										</tr>
+										<tr>
+											<td>Filmes</td>
+											<td>Pesquisar informações de filmes no site IMDb.com, envie o comando e em seguida o nome do filme em inglês.</td>
+											<td>/filme <b>Texto</b></td>
+										</tr>
+										<tr>
+											<td>IMDB</td>
+											<td>Pesquisar por filmes Séries no site IMDb.com, envie o comando e em seguida o nome do filme ou série em inglês.</td>
+											<td>/imdb <b>Texto</b></td>
+										</tr>
+										<tr>
+											<td>Série</td>
+											<td>Pesquisar informações de Séries no site IMDb.com, envie o comando e em seguida o nome da série em inglês.</td>
+											<td>/serie <b>Texto</b></td>
+										</tr>
+										<tr>
+											<td>Wikipédia</td>
+											<td>Pesquisar na Wikipedia.</td>
+											<td>/wiki <b>Texto</b></td>
+										</tr>
+
+										<tr>
+											<td>Informações</td>
+											<td>Mostrar algumas informações úteis sobre mim.</td>
+											<td>/info</td>
+										</tr>
+										<tr>
+											<td>ID</td>
+											<td>Mostrar algumas informações básicas sobre você ou o usuário que você respondeu.</td>
+											<td>/id</td>
+										</tr>
+										<tr>
+											<td>IP</td>
+											<td>Mostar informações sobre o ip ou dominio mencionado.</td>
+											<td>/ip <b>IP/Domínio</b></td>
+										</tr>
+										<tr>
+											<td>Ping</td>
+											<td>Verificar ping</td>
+											<td>/ping</td>
+										</tr>
+										<tr>
+											<td>Stickers</td>
+											<td>Enviar um sticker de acordo com o texto mencionado.</td>
+											<td>/sticker <b>Texto</b></td>
+										</tr>
+										<tr>
+											<td>Suporte</td>
+											<td>Envie Bug's/Perguntas/Sugestões para nossa equipe.</td>
+											<td>/suporte <b>Texto</b></td>
+										</tr>
+										<tr>
+											<td>Trânsito</td>
+											<td>Visualizar informações sobre o transito de São Paulo.</td>
+											<td>/trânsito <b>Local</b></td>
+										</tr>
+										<tr>
+										</tr>
+										<tr>
+											<td>Tradução</td>
+											<td>Para fazer a tradução de algum texto de qualquer idioma para o português.</td>
+											<td>/tr <b>Texto</b></td>
+										</tr>
+										<tr>
+											<td>Youtube</td>
+											<td>Para procurar vídeos no youtube.com, envie o comando e em seguida o nome do video que deseja procurar.</td>
+											<td>/youtube <b>Texto</b></td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
-		</header>
+			<div id="footer"></div>
+</body>
 
-		<div class="fh5co-project js-fh5co-waypoint" data-bgcolor="" data-next="yes">
-			<div class="container">
-				<div class="fh5co-project-inner row">
-					<div class="fh5co-imgs col-md-8 animate-box">
-						<div class="img-holder-1 animate-box">
-							<img src="images/ed_large.jpg" alt="@EDRobot">
-						</div>
-						<div class="img-holder-2 animate-box">
-							<img src="images/ed_small.jpg" alt="@EDRobot">
-						</div>
-					</div>
-					<div class="fh5co-text col-md-4 animate-box">
-						<h2>Olá, eu sou o E D</h2>
-						<p>Estou em minha nave e posso conversar com você e seus amigos. Tenho muitas funções muito interessantes e divertidas, como administrar seu grupo, enviar informações sobre o tempo e muito mais...</p>
-						<p><a href="https://telegram.me/EDRobot" class="btn btn-light btn-outline transition">Abrir</a></p>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div class="fh5co-project js-fh5co-waypoint fh5co-reverse" data-colorbg="" data-next="yes">
-			<div class="container">
-				<div class="fh5co-project-inner row">
-					<div class="fh5co-imgs col-md-8 col-md-push-4 animate-box">
-						<div class="img-holder-1 animate-box">
-							<img src="images/sete_large.jpg" alt="@SeteZoomBot">
-						</div>
-						<div class="img-holder-2 animate-box">
-							<img src="images/sete_small.jpg" alt="@SeteZoomBot">
-						</div>
-					</div>
-					<div class="fh5co-text col-md-4 col-md-pull-8 animate-box">
-						<h2>Olá, meu nome é Sete</h2>
-						<p>Fui criada pra tornar seu grupo mais divertido, ou bater um papo no privado.</p>
-						<p><a href="https://telegram.me/SeteZoomBot" class="btn btn-light btn-outline transition">Abrir</a></p>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<!-- data-colorbg="#2d4059" -->
-		<div class="fh5co-project js-fh5co-waypoint" data-colorbg="" data-next="yes">
-			<div class="container">
-				<div class="fh5co-project-inner row">
-					<div class="fh5co-imgs col-md-8 animate-box">
-						<div class="img-holder-1 animate-box">
-							<img src="images/simsimi_large.jpg" alt="@SimSimiBot">
-						</div>
-						<div class="img-holder-2 animate-box">
-							<img src="images/simsimi_small.jpg" alt="@SimSimiBot">
-						</div>
-					</div>
-					<div class="fh5co-text col-md-4 animate-box">
-						<h2>SimSimi</h2>
-						<p>Eu sou um chatterbot criado para entreter meus usuários com muita zueira HUEHUEHUE.</p>
-						<p><a href="https://telegram.me/SeteZoomBot" class="btn btn-light btn-outline transition">Abrir</a></p>
-					</div>
-				</div>
-			</div>
-		</div>
-
-			<footer id="fh5co-footer">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-12 text-center">
-							<p><small>&copy; 2016 Synk. All Rights Reserved. <br> Created by <a href="http://freehtml5.co/" target="_blank">FREEHTML5</a></small> </p>
-						</div>
-					</div>
-				</div>
-			</footer>
-		</body>
-		</html>
+</html>
