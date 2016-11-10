@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="template/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 
     <!-- Compiled and minified JavaScript -->
@@ -19,5 +20,6 @@
     <script type="text/javascript">
       $( document ).ready(function(){
          $(".button-collapse").sideNav();
+         $('.parallax').parallax();
       });
     </script>
