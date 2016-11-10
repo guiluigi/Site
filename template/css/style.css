@@ -1,0 +1,28 @@
+.menu
+{
+    border-style: none;
+    box-shadow: none;
+}
+
+.first-section
+{
+  height: 350px;
+  text-align: center;
+  text-size: 22px;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  padding-bottom: 5px;
+
+}
+.second-section
+{
+    text-align: center;
+}
+
+.third-section
+{
+  height: 110px;
+  text-align: center;
+  text-size: 22px;
+  color: white;
+}
