@@ -1,6 +1,6 @@
 <div class="row">
      <div class="col s12 light-blue darken-2 first-section">
-       <h1>Synko Site</h1>
+       <h1>Synko - Developers</h1>
        <h2>Os melhores bots do telegram por aqui!</h2>
      </div>
      <div id="bots" class="col s12 bots">
