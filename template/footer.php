@@ -59,8 +59,9 @@
 
         <div class="footer-copyright">
           <div class="container">
-          © 2014 Copyright Text
-          <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+          Synko © 2014 Copyright Text
+          <a class="white-text text-lighten-4 right" href="#gg">Site desenhado por Gualter Perinho<a/>
+
           </div>
         </div>
       </footer>
