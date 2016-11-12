@@ -18,11 +18,11 @@
     </nav>
  </div>
  <ul class="side-nav" id="mobile-demo">
-   <li><a href="">Home</a></li>
-   <li><a href="#bots">Bots</a></li>
-   <li><a href="#grupos">Grupos</a></li>
+   <li><a href="http://synko.com.br/">Home</a></li>
+   <li><a href="http://synko.com.br/#bots">Bots</a></li>
+   <li><a href="http://synko.com.br/#grupos">Grupos</a></li>
    <li><a href="?p=comandos">Comandos</a></li>
-   <li><a href="#equipe">Equipe</a></li>
+   <li><a href="http://synko.com.br/#equipe">Equipe</a></li>
    <li><a href="?p=colaboradores">Colaboradores</a></li>
-   <li><a href="#contatos">Contatos</a></li>
+   <li><a href="http://synko.com.br/#contatos">Contatos</a></li>
  </ul>
