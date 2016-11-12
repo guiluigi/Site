@@ -160,8 +160,7 @@
             </div>
             <div class="card-content">
               <h3>Vycktor Stark</h3>
-              <p>I am a very simple card. I am good at containing small bits of information.
-              I am convenient because I require little markup to use effectively.</p>
+              <p>Tenho 19 anos, Sou programador e faço parte desta Equipe!</p>
             </div>
 
           </div>
