@@ -16,17 +16,17 @@
 
                       <div class="input-field col s6"><!--input email-->
                         <input placeholder="E-mail" id="email" type="email" class="validate">
-                        <label for="email">E-mail</label>
+                        <label class="white-text" for="email">E-mail</label>
                       </div><!--fim input email-->
 
                       <div class="input-field col s12"><!--input assunto-->
                         <input placeholder="Assunto" id="assunto" type="text" class="validate">
-                        <label for="assunto">Assunto</label>
+                        <label class="white-text" for="assunto">Assunto</label>
                       </div><!--fim input assunto-->
 
                       <div class="input-field col s12"><!--input texto-->
                         <textarea id="texto" class="materialize-textarea"></textarea>
-                        <label for="texto">Texto</label>
+                        <label class="white-text" for="texto">Texto</label>
                       </div><!--fim input texto-->
 
                       <div class="input-field col s6">
