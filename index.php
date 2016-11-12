@@ -1,7 +1,14 @@
 <?php
   error_reporting(E_ALL & ~E_NOTICE);
 
-  $title = "Synko - Developers";
+  if($_GET['p'] == "")
+  {
+    $title = "Synko - Developers";
+  }
+  elseif ($_GET['p'] !== "")
+  {
+    $title = 'Synko - Developers - '.$_GET['p'];
+  }
 
 
   include_once('template/header.php');
