@@ -59,7 +59,7 @@
 
         <div class="footer-copyright">
           <div class="container">
-          Synko © 2014 Copyright Text
+          Synko © 2014 Todos os direitos reservados
           <a class="white-text text-lighten-4 right" href="#gg">Site desenhado por Gualter Perinho<a/>
 
           </div>
