@@ -6,7 +6,7 @@
               <h5 class="white-text">Contato</h5>
                 <div class="col s12 m12 12">
                   <!--Inicio do formulário-->
-                  <form method="post" action="">
+                  <form method="post" action="actions.php?a=email">
                     <div class="row">
 
                       <div class="input-field col s6"> <!--Input nome-->
@@ -30,7 +30,7 @@
                       </div><!--fim input texto-->
 
                       <div class="input-field col s6">
-                        <button class="btn light-blue darken-4 waves-effect waves-light" type="submit" name="action">Enviar
+                        <button class="btn light-blue darken-4 waves-effect waves-light" type="submit" name="email">Enviar
                           <i class="material-icons right">send</i>
                         </button>
                       </div>
