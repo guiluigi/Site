@@ -20,7 +20,7 @@
           <!--tabela-->
           <div class="col s12 m12 l12">
             <div class="section">
-            <table>
+            <table class="responsive-table">
               <thead>
                 <tr class="light-blue darken-2 white-text">
                   <th data-field="comando">Comando</th>
