@@ -14,6 +14,6 @@
     <div id="ed" class="col s12"><?php include_once('html/pages/ed.php'); ?></div>
     <div id="sete" class="col s12">Test 2</div>
     <div id="simi" class="col s12">Test 3</div>
-    <div id="currencia" class="col s12">Test 4</div>
+    <div id="currencia" class="col s12"><?php include_once('html/pages/currencia.php'); ?></div>
   </div>
 </div>
