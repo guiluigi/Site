@@ -1,7 +1,7 @@
 <div class="fixed-top">
   <div class="row">
     <div class="col s12 light-blue darken-2 white-text second-section bots">
-      <h1>Comandos</h1>
+      <h2>Comandos</h2>
     </div>
     <div class="col s12">
       <ul class="tabs">
