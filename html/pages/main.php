@@ -5,7 +5,7 @@
 <div class="row">
     <!--Primeira linha-->
      <div class="col s12 light-blue darken-2 first-section">
-       <h1>Synko Site</h1>
+       <h1>Synko - Developers</h1>
        <h2>Os melhores bots do telegram por aqui!</h2>
      </div>
      <!--fim primeira linha-->
@@ -148,8 +148,7 @@
             </div>
             <div class="card-content">
               <h3>Wesley Henr</h3>
-              <p>I am a very simple card. I am good at containing small bits of information.
-              I am convenient because I require little markup to use effectively.</p>
+              <p>Veni, Vidi, Vici</p>
             </div>
 
           </div>
@@ -174,8 +173,7 @@
             </div>
             <div class="card-content">
               <h3>Tiago Danin</h3>
-              <p>I am a very simple card. I am good at containing small bits of information.
-              I am convenient because I require little markup to use effectively.</p>
+              <p>Have 18 years, i'm a genius, developer, i love music, graphic animation and 3D modeling..</p>
             </div>
 
           </div>
