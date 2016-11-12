@@ -1,7 +1,7 @@
 <?php
   error_reporting(E_ALL & ~E_NOTICE);
 
-  $title = "Synko - Developers";
+  $title = "Sinko Site";
 
   include_once('template/header.php');
 

@@ -6,15 +6,12 @@
   {
     include_once('html/pages/main.php');
   }
-  elseif ($_GET['p'] == "ed")
+  elseif ($_GET['p'] == "comandos")
   {
-    include_once('html/pages/ed.php');
+    include_once('html/pages/comandos.php');
   }
-  elseif ($_GET['p'] == "sete")
+  elseif ($_GET['p'] == "colaboradores")
   {
-    include_once('html/pages/sete.php');
+    include_once('html/pages/colaboradores.php');
   }
-  elseif ($_GET['p'] == "simsim")
-  {
-    include_once('html/pages/simsim.php');
-  }
+  

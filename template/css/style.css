@@ -1,3 +1,8 @@
+.logo
+{
+    font-family: 'Coiny', cursive;
+}
+
 .menu
 {
     border-style: none;
@@ -11,7 +16,6 @@
   text-size: 22px;
   color: white;
   font-family: 'Josefin Sans', sans-serif;
-  padding-bottom: 5px;
 
 }
 .second-section
@@ -31,4 +35,14 @@
 {
   text-align: center;
   font-family: 'Nunito', sans-serif;
+}
+
+.tabs .indicator {
+    background-color: #0288d1;
+    color:#0288d1;
+}
+
+ul.tabs > li.tab > a.active
+{
+  color:#0288d1;
 }
