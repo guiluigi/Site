@@ -12,8 +12,8 @@
       </ul>
     </div>
     <div id="ed" class="col s12"><?php include_once('html/pages/ed.php'); ?></div>
-    <div id="sete" class="col s12">Test 2</div>
-    <div id="simi" class="col s12">Test 3</div>
+    <div id="sete" class="col s12"><?php include_once('html/pages/sete.php'); ?></div>
+    <div id="simi" class="col s12"><?php include_once('html/pages/simsim.php'); ?></div>
     <div id="currencia" class="col s12"><?php include_once('html/pages/currencia.php'); ?></div>
   </div>
 </div>

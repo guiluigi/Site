@@ -80,7 +80,7 @@
 <!--Inicio da segunda classe row-->
   <div class="row light-blue darken-4 white-text">
 
-    <div class="col s12 m12 12 bots">
+    <div id="grupos" class="col s12 m12 12 bots">
       <h1>Grupos Oficiais</h1>
     </div>
 
@@ -138,7 +138,7 @@
 
   <!--Inicio da terceira classe row-->
   <div class="row second-section">
-    <div class="col s12 bots">
+    <div id="equipe" class="col s12 bots">
       <h1>Equipe</h1>
     </div>
     <div class="col s12 m4 4">
