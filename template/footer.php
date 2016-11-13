@@ -65,5 +65,27 @@
           </div>
         </div>
       </footer>
+      <!--libs do js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+
+      <!-- Compiled and minified JavaScript -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+
+    
+      <script type="text/javascript">
+        $( document ).ready(function(){
+           $(".button-collapse").sideNav();
+           $('.parallax').parallax();
+
+           $('form.contatoForm').on('submit', function(form){
+             form.preventDefault();
+             $.post('actions.php?a=contato', $('form.contatoForm').serialize(), function(data){
+             $('div.contatoMessages').html(data);
+           });
+           $('.contatoForm').trigger("reset");
+           });
+       });
+      </script>
+      <!--fim das libs do js-->
   </body>
 </html>
