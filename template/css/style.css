@@ -50,3 +50,8 @@ ul.tabs > li.tab > a.active
 {
   color:#0288d1;
 }
+
+.fixed-size
+{
+  height: 500px;
+}

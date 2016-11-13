@@ -148,8 +148,8 @@
     <div id="equipe" class="col s12 bots wow fadeInDown" data-wow-duration="2s">
       <h1>Equipe</h1>
     </div>
-    <div class="col s12 m4 4 wow fadeInDown" data-wow-duration="2s">
-      <div class="card">
+    <div class="col s12 m4 l4 wow fadeInDown" data-wow-duration="2s">
+      <div class="card small">
             <div>
               <img class="circle" src="template/images/tigui.jpg" width="128px" height="128px">
             </div>
@@ -160,8 +160,8 @@
 
           </div>
     </div>
-    <div class="col s12 m4 4 wow fadeInDown" data-wow-duration="2s">
-      <div class="card">
+    <div class="col s12 m4 l4 wow fadeInDown" data-wow-duration="2s">
+      <div class="card small">
             <div>
               <img class="circle" src="template/images/vh.jpg" width="128px" height="128px">
             </div>
@@ -172,8 +172,8 @@
 
           </div>
     </div>
-    <div class="col s12 m4 4 wow fadeInDown" data-wow-duration="2s">
-      <div class="card">
+    <div class="col s12 m4 l4 wow fadeInDown" data-wow-duration="2s">
+      <div class="card small">
             <div>
               <img class="circle" src="template/images/wes.jpg" width="128px" height="128px">
             </div>
