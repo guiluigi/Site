@@ -1,21 +1,25 @@
 <!--Inicio do documento-->
 
 <!--primeira class row-->
-
-<div class="row">
+<div class="section light-blue darken-2 first-section">
+<div class="row margin-top">
     <!--Primeira linha-->
-     <div class="col s12 light-blue darken-2 first-section">
+     <div class="col s12">
        <h1>Synko - Developers</h1>
        <h2>Os melhores bots do telegram por aqui!</h2>
      </div>
      <!--fim primeira linha-->
+</div>
+</div>
 
      <!--Segunda linha-->
+     <div class="section-white second-section">
+       <div class="row">
      <div id="bots" class="col s12 bots">
        <h1>Bots</h1>
      </div>
      <!--Bot Ed-->
-     <div class="col s12 m4 4 second-section">
+     <div class="col s12 m4 l4">
        <div class="card">
          <div class="waves-effect waves-block waves-light">
             <img class="activator" src="template/images/ed.png" width="128px" height="128px">
@@ -30,6 +34,7 @@
           </div>
         </div>
      </div>
+
      <!--Fim bot ed-->
 
      <!--Bot Sete-->
@@ -67,6 +72,8 @@
         </div>
      </div>
      <!--fim bot simi-->
+   </div>
+ </div>
      <!--Fim da segunda linha-->
 </div>
 <!--final da primeira classe row-->

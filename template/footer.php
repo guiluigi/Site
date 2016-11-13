@@ -1,4 +1,4 @@
-<footer class="page-footer light-blue darken-2">
+<footer id="contatos" class="page-footer light-blue darken-2">
         <div class="container">
           <div class="row">
 
@@ -71,12 +71,14 @@
       <!-- Compiled and minified JavaScript -->
       <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
 
-    
+
       <script type="text/javascript">
         $( document ).ready(function(){
            $(".button-collapse").sideNav();
            $('.parallax').parallax();
-
+           window_size = $(window).height();
+           $('.first-section').height(window_size);
+           
            $('form.contatoForm').on('submit', function(form){
              form.preventDefault();
              $.post('actions.php?a=contato', $('form.contatoForm').serialize(), function(data){

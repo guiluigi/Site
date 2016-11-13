@@ -2,7 +2,7 @@
     <nav class="light-blue darken-2 menu">
       <div class="container">
          <div class="nav-wrapper light-blue accent-3">
-           <a href="#!" class="brand-logo logo"><img src="template/images/Logo.svg" width="52px" height="52px"></a>
+           <a href="http://synko.com.br/" class="brand-logo logo"><img src="template/images/Logo.svg" width="52px" height="52px"></a>
            <ul class="right hide-on-med-and-down">
              <li><a href="http://synko.com.br/">Home</a></li>
              <li><a href="http://synko.com.br/#bots">Bots</a></li>

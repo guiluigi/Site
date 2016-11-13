@@ -9,9 +9,13 @@
     box-shadow: none;
 }
 
+.margin-top
+{
+  margin-top: 18%;
+}
+
 .first-section
 {
-  height: 350px;
   text-align: center;
   text-size: 22px;
   color: white;
