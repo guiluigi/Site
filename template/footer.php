@@ -78,7 +78,7 @@
            $('.parallax').parallax();
            window_size = $(window).height();
            $('.first-section').height(window_size);
-           
+
            $('form.contatoForm').on('submit', function(form){
              form.preventDefault();
              $.post('actions.php?a=contato', $('form.contatoForm').serialize(), function(data){
@@ -87,6 +87,11 @@
            $('.contatoForm').trigger("reset");
            });
        });
+      </script>
+
+      <script src="template/js/wow.min.js"></script>
+      <script>
+        new WOW().init();
       </script>
       <!--fim das libs do js-->
   </body>

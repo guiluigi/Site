@@ -4,7 +4,7 @@
 <div class="section light-blue darken-2 first-section">
 <div class="row margin-top">
     <!--Primeira linha-->
-     <div class="col s12">
+     <div class="col s12 wow bounceInDown">
        <h1>Synko - Developers</h1>
        <h2>Os melhores bots do telegram por aqui!</h2>
      </div>
@@ -19,7 +19,7 @@
        <h1>Bots</h1>
      </div>
      <!--Bot Ed-->
-     <div class="col s12 m4 l4">
+     <div class="col s12 m4 l4 wow slideInLeft">
        <div class="card">
          <div class="waves-effect waves-block waves-light">
             <img class="activator" src="template/images/ed.png" width="128px" height="128px">
@@ -38,7 +38,7 @@
      <!--Fim bot ed-->
 
      <!--Bot Sete-->
-     <div class="col s12 m4 4 second-section">
+     <div class="col s12 m4 4 second-section wow bounceInDown">
        <div class="card">
          <div class="waves-effect waves-block waves-light">
             <img class="activator" src="template/images/sete.png" width="128px" height="128px">
@@ -56,7 +56,7 @@
      <!--Fim bot Sete-->
 
      <!--Inicio bot simi-->
-     <div class="col s12 m4 4 second-section">
+     <div class="col s12 m4 4 second-section wow slideInRight">
        <div class="card">
          <div class="waves-effect waves-block waves-light">
             <img class="activator" src="template/images/simi.png" width="128px" height="128px">
@@ -87,12 +87,12 @@
 <!--Inicio da segunda classe row-->
   <div class="row light-blue darken-4 white-text">
 
-    <div id="grupos" class="col s12 m12 12 bots">
+    <div id="grupos" class="col s12 m12 12 bots wow fadeInDown">
       <h1>Grupos Oficiais</h1>
     </div>
 
     <!--Grupo oficial-->
-    <div class="col s12 m4 4 second-section">
+    <div class="col s12 m4 4 second-section wow fadeInDown">
         <div class="row">
             <div class="col s12 m12 12">
               <h1><i class="large material-icons">chat_bubble_outline</i></h1>
@@ -116,7 +116,7 @@
     <!--Fim do grupo oficial-->
 
     <!--inicio divulga ed-->
-    <div class="col s12 m4 4 second-section">
+    <div class="col s12 m4 4 second-section wow fadeInDown">
       <div class="row">
         <div class="col s12 m12 12">
           <h1><i class="large material-icons">volume_up</i></h1>
@@ -145,34 +145,10 @@
 
   <!--Inicio da terceira classe row-->
   <div class="row second-section">
-    <div id="equipe" class="col s12 bots">
+    <div id="equipe" class="col s12 bots wow fadeInDown" data-wow-duration="2s">
       <h1>Equipe</h1>
     </div>
-    <div class="col s12 m4 4">
-      <div class="card">
-            <div>
-              <img class="circle" src="template/images/wes.jpg" width="128px" height="128px">
-            </div>
-            <div class="card-content">
-              <h3>Wesley Henr</h3>
-              <p>Veni, Vidi, Vici</p>
-            </div>
-
-          </div>
-    </div>
-    <div class="col s12 m4 4">
-      <div class="card">
-            <div>
-              <img class="circle" src="template/images/vh.jpg" width="128px" height="128px">
-            </div>
-            <div class="card-content">
-              <h3>Vycktor Stark</h3>
-              <p>Tenho 19 anos, Sou programador e faço parte desta Equipe!</p>
-            </div>
-
-          </div>
-    </div>
-    <div class="col s12 m4 4">
+    <div class="col s12 m4 4 wow fadeInDown" data-wow-duration="2s">
       <div class="card">
             <div>
               <img class="circle" src="template/images/tigui.jpg" width="128px" height="128px">
@@ -184,5 +160,30 @@
 
           </div>
     </div>
+    <div class="col s12 m4 4 wow fadeInDown" data-wow-duration="2s">
+      <div class="card">
+            <div>
+              <img class="circle" src="template/images/vh.jpg" width="128px" height="128px">
+            </div>
+            <div class="card-content">
+              <h3>Vycktor Stark</h3>
+              <p>Tenho 19 anos, Sou programador e faço parte desta Equipe!</p>
+            </div>
+
+          </div>
+    </div>
+    <div class="col s12 m4 4 wow fadeInDown" data-wow-duration="2s">
+      <div class="card">
+            <div>
+              <img class="circle" src="template/images/wes.jpg" width="128px" height="128px">
+            </div>
+            <div class="card-content">
+              <h3>Wesley Henr</h3>
+              <p>Veni, Vidi, Vici</p>
+            </div>
+
+          </div>
+    </div>
+
   </div>
   <!--fim terceira classe row-->
