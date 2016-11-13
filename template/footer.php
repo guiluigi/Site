@@ -6,35 +6,36 @@
               <h5 class="white-text">Contato</h5>
                 <div class="col s12 m12 12">
                   <!--Inicio do formulário-->
-                  <form method="post" action="actions.php?a=email">
+                  <form class="contatoForm" method="post" action="actions.php?a=contato">
                     <div class="row">
 
                       <div class="input-field col s6"> <!--Input nome-->
-                        <input class="white-text" placeholder="Nome" id="name" type="text" class="validate">
+                        <input class="white-text" placeholder="Nome" id="name" name="nome" type="text" class="validate">
                         <label class="white-text" for="name">Nome</label>
                       </div><!--fim input nome-->
 
                       <div class="input-field col s6"><!--input email-->
-                        <input placeholder="E-mail" id="email" type="email" class="validate">
-                        <label class="white-text" for="email">E-mail</label>
+                        <input class="white-text" placeholder="Usuário" id="usuario" name="usuario" type="text" class="validate">
+                        <label class="white-text" for="email">Usuário do Telegram</label>
                       </div><!--fim input email-->
 
                       <div class="input-field col s12"><!--input assunto-->
-                        <input placeholder="Assunto" id="assunto" type="text" class="validate">
+                        <input class="white-text" placeholder="Assunto" id="assunto" name="assunto" type="text" class="validate">
                         <label class="white-text" for="assunto">Assunto</label>
                       </div><!--fim input assunto-->
 
                       <div class="input-field col s12"><!--input texto-->
-                        <textarea id="texto" class="materialize-textarea"></textarea>
+                        <textarea name="texto" id="texto" class="materialize-textarea white-text"></textarea>
                         <label class="white-text" for="texto">Texto</label>
                       </div><!--fim input texto-->
 
                       <div class="input-field col s6">
-                        <button class="btn light-blue darken-4 waves-effect waves-light" type="submit" name="email">Enviar
+                        <button class="btn light-blue darken-4 waves-effect waves-light" type="submit" name="contatoBtn">Enviar
                           <i class="material-icons right">send</i>
                         </button>
                       </div>
-
+                      <div class="col s12 m12 l12 contatoMessages white-text">
+                      </div>
                     </div>
                   </form>
                   <!--final do formulário-->

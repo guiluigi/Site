@@ -23,5 +23,13 @@
       $( document ).ready(function(){
          $(".button-collapse").sideNav();
          $('.parallax').parallax();
-      });
+
+         $('form.contatoForm').on('submit', function(form){
+           form.preventDefault();
+           $.post('actions.php?a=contato', $('form.contatoForm').serialize(), function(data){
+           $('div.contatoMessages').html(data);
+         });
+         $('.contatoForm').trigger("reset");
+         });
+     });
     </script>
