@@ -5,7 +5,7 @@
     <div class="col s12 m12 l10 second-section">
       <div class="card">
         <div class="row">
-          <div class="col s12 m12 l12 blue darken-4 ">
+          <div class="col s12 m12 l12 light-blue accent-3 ">
             <div class="section">
               <div class="row white-text">
                 <div class="col s12 m12 l6">
