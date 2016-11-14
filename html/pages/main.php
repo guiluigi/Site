@@ -20,7 +20,7 @@
      </div>
      <!--Bot Ed-->
      <div class="col s12 m4 l4 wow slideInLeft">
-       <div class="card">
+       <div class="card small">
          <div class="waves-effect waves-block waves-light">
             <img class="activator" src="template/images/ed.png" width="128px" height="128px">
           </div>
@@ -39,7 +39,7 @@
 
      <!--Bot Sete-->
      <div class="col s12 m4 4 second-section wow bounceInDown">
-       <div class="card">
+       <div class="card small">
          <div class="waves-effect waves-block waves-light">
             <img class="activator" src="template/images/sete.png" width="128px" height="128px">
           </div>
@@ -57,7 +57,7 @@
 
      <!--Inicio bot simi-->
      <div class="col s12 m4 4 second-section wow slideInRight">
-       <div class="card">
+       <div class="card small">
          <div class="waves-effect waves-block waves-light">
             <img class="activator" src="template/images/simi.png" width="128px" height="128px">
           </div>
@@ -85,14 +85,14 @@
 <!--fim do primeiro efeito parallax-->
 
 <!--Inicio da segunda classe row-->
-  <div class="row light-blue darken-4 white-text">
+  <div class="row txt-center light-blue darken-4 white-text">
 
     <div id="grupos" class="col s12 m12 12 bots wow fadeInDown">
       <h1>Grupos Oficiais</h1>
     </div>
 
     <!--Grupo oficial-->
-    <div class="col s12 m4 4 second-section wow fadeInDown">
+    <div class="col s12 m4 l4 wow fadeInDown">
         <div class="row">
             <div class="col s12 m12 12">
               <h1><i class="large material-icons">chat_bubble_outline</i></h1>
@@ -100,7 +100,7 @@
             <div class="col s12 m12 12 ">
               <h5>Grupo Oficial do Robô Ed</h5>
             </div>
-            <div class="col s12 m12 12 ">
+            <div class="col s12 m12 12 box-nano">
               <p>Junta-te ao grupo oficial do Robô Ed, faz amigos, conversa com os
               administradores e muito mais.</p>
             </div>
@@ -116,7 +116,29 @@
     <!--Fim do grupo oficial-->
 
     <!--inicio divulga ed-->
-    <div class="col s12 m4 4 second-section wow fadeInDown">
+    <div class="col s12 m4 l4 second-section size-medium wow fadeInDown">
+      <div class="row">
+        <div class="col s12 m12 12">
+          <h1><i class="large material-icons">thumb_up</i></h1>
+        </div>
+        <div class="col s12 m12 12 ">
+          <h5>Canal Oficial do Robô Ed</h5>
+        </div>
+        <div class="col s12 m12 12 box-nano">
+          <p>Bem, gostas de estar atualizado? Gostas do Robô Ed?
+            Então faz como muitos usuários, subscreve o canal de divulgações do Robô Ed e
+          fica atualizado sobre as ultimas novidades do Ed.</p>
+        </div>
+        <div class="col s12 m12 12 ">
+          <a class="btn blue darken-4 waves-effect waves-light" href="https://telegram.me/RoboED"> Aderir
+            <i class="material-icons right">add</i>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!--fim divulga ed-->
+
+    <div class="col s12 m4 l4">
       <div class="row">
         <div class="col s12 m12 12">
           <h1><i class="large material-icons">volume_up</i></h1>
@@ -124,21 +146,16 @@
         <div class="col s12 m12 12 ">
           <h5>Canal de Divulgações do Robô Ed</h5>
         </div>
-        <div class="col s12 m12 12 ">
-          <p>Bem, gostas de estar atualizado? Gostas do Robô Ed?
-            Então faz como muitos usuários, subscreve o canal de divulgações do Robô Ed e
-          fica atualizado sobre as ultimas novidades do Ed.</p>
+        <div class="col s12 m12 12 box-nano">
+          <p>Queres divulgar, queres ver as divulgações da comunidade do Robô Ed?
+          Então clica em baixo para veres as divulgações.</p>
         </div>
         <div class="col s12 m12 12 ">
-          <button class="btn blue darken-4 waves-effect waves-light" href="">Aderir
+          <a class="btn blue darken-4 waves-effect waves-light" href="https://telegram.me/divulgaED"> Aderir
             <i class="material-icons right">add</i>
-          </button>
+          </a>
         </div>
       </div>
-    </div>
-    <!--fim divulga ed-->
-
-    <div class="col s12 m4 4">
     </div>
   </div>
   <!--Fim da segunda classe row-->

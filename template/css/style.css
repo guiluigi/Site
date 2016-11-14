@@ -35,6 +35,21 @@
   color: white;
 }
 
+.box-nano
+{
+  height: 125px;
+}
+
+.box-mini
+{
+  height: 250px;
+}
+
+.txt-center
+{
+  text-align: center;
+}
+
 .bots
 {
   text-align: center;
