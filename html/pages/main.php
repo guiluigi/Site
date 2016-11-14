@@ -95,7 +95,7 @@
     <div class="col s12 m4 l4 wow fadeInDown">
         <div class="row">
             <div class="col s12 m12 12">
-              <h1><i class="large material-icons">chat_bubble_outline</i></h1>
+              <h1><i class="large material-icons">chat_bubble</i></h1>
             </div>
             <div class="col s12 m12 12 ">
               <h5>Grupo Oficial do Robô Ed</h5>
