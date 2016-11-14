@@ -1,4 +1,4 @@
-<footer id="contatos" class="page-footer light-blue darken-2">
+<footer id="contatos" class="page-footer light-blue accent-3">
         <div class="container">
           <div class="row">
 
