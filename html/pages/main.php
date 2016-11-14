@@ -138,7 +138,7 @@
     </div>
     <!--fim divulga ed-->
 
-    <div class="col s12 m4 l4">
+    <div class="col s12 m4 l4 wow fadeInDown">
       <div class="row">
         <div class="col s12 m12 12">
           <h1><i class="large material-icons">volume_up</i></h1>
