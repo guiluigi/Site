@@ -8,13 +8,24 @@
 <div class="section">
   <div class="row second-section">
   <div class="col s12 m4 l4">
-    <div class="card">
+    <div class="card small">
           <div>
             <img class="circle" src="template/images/gugu.jpg" width="128px" height="128px">
           </div>
           <div class="card-content">
             <h3>Gualter Perinho</h3>
             <p>Desenvolvedor do Site, 23 anos, o diferentão Português.</p>
+          </div>
+        </div>
+  </div>
+  <div class="col s12 m4 l4">
+    <div class="card small">
+          <div>
+            <img class="circle" src="template/images/anni.jpg" width="128px" height="128px">
+          </div>
+          <div class="card-content">
+            <h3>Anni Rossini</h3>
+            <p>20 anos, estudando pra bater laje, maníaca por correção ortográfica.</p>
           </div>
         </div>
   </div>
