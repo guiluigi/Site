@@ -26,10 +26,10 @@
           </div>
           <div class="card-content">
             <span class="card-title activator grey-text text-darken-4">Robô Ed<i class="material-icons right">more_vert</i></span>
-            <p><a href="#">This is a link</a></p>
+            <p><a href="https://telegram.me/EdRobot">Link</a></p>
           </div>
           <div class="card-reveal">
-            <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+            <span class="card-title grey-text text-darken-4">Robô Ed<i class="material-icons right">close</i></span>
             <p>Here is some more information about this product that is only revealed once clicked on.</p>
           </div>
         </div>
@@ -45,10 +45,10 @@
           </div>
           <div class="card-content">
             <span class="card-title activator grey-text text-darken-4">Sete Zoom<i class="material-icons right">more_vert</i></span>
-            <p><a href="#">This is a link</a></p>
+            <p><a href="https://telegram.me/SeteZoomBot">Link</a></p>
           </div>
           <div class="card-reveal">
-            <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+            <span class="card-title grey-text text-darken-4">Sete Zoom<i class="material-icons right">close</i></span>
             <p>Here is some more information about this product that is only revealed once clicked on.</p>
           </div>
         </div>
@@ -62,11 +62,11 @@
             <img class="activator" src="template/images/simi.png" width="128px" height="128px">
           </div>
           <div class="card-content">
-            <span class="card-title activator grey-text text-darken-4">SimSim<i class="material-icons right">more_vert</i></span>
-            <p><a href="#">This is a link</a></p>
+            <span class="card-title activator grey-text text-darken-4">Simsimi<i class="material-icons right">more_vert</i></span>
+            <p><a href="https://telegram.me/SimiRobot">Link</a></p>
           </div>
           <div class="card-reveal">
-            <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+            <span class="card-title grey-text text-darken-4">Simsimi<i class="material-icons right">close</i></span>
             <p>Here is some more information about this product that is only revealed once clicked on.</p>
           </div>
         </div>
@@ -106,9 +106,9 @@
             </div>
             <div class="card-action">
             <div class="col s12 m12 12 ">
-              <button class="btn blue darken-4 waves-effect waves-light" href="">Aderir
+              <a class="btn blue darken-4 waves-effect waves-light" href="https://telegram.me/joinchat/BAcnSD_yPuo6vNii5lKfzQ">Aderir
                 <i class="material-icons right">add</i>
-              </button>
+              </a>
             </div>
             </div>
       </div>
