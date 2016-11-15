@@ -10,17 +10,17 @@
                     <div class="row">
 
                       <div class="input-field col s6"> <!--Input nome-->
-                        <input class="white-text" placeholder="Nome" id="name" name="nome" type="text" class="validate">
+                        <input class="white-text" id="name" name="nome" type="text" class="validate">
                         <label class="white-text" for="name">Nome</label>
                       </div><!--fim input nome-->
 
                       <div class="input-field col s6"><!--input email-->
-                        <input class="white-text" placeholder="Usuário" id="usuario" name="usuario" type="text" class="validate">
+                        <input class="white-text" id="usuario" name="usuario" type="text" class="validate">
                         <label class="white-text" for="email">Usuário do Telegram</label>
                       </div><!--fim input email-->
 
                       <div class="input-field col s12"><!--input assunto-->
-                        <input class="white-text" placeholder="Assunto" id="assunto" name="assunto" type="text" class="validate">
+                        <input class="white-text" id="assunto" name="assunto" type="text" class="validate">
                         <label class="white-text" for="assunto">Assunto</label>
                       </div><!--fim input assunto-->
 
