@@ -18,19 +18,19 @@
      <div id="bots" class="col s12 bots">
        <h1>Bots</h1>
      </div>
-     <!--Bot Ed-->
+     <!--Bot ED-->
      <div class="col s12 m4 l4 wow slideInLeft">
        <div class="card small">
          <div class="waves-effect waves-block waves-light">
             <img class="activator" src="template/images/ed.png" width="128px" height="128px">
           </div>
           <div class="card-content">
-            <span class="card-title activator grey-text text-darken-4">Robô Ed<i class="material-icons right">more_vert</i></span>
-            <p><a href="https://telegram.me/EdRobot">Link</a></p>
+            <span class="card-title activator grey-text text-darken-4">Robô ED<i class="material-icons right">more_vert</i></span>
+            <p><a href="https://telegram.me/EDRobot">Link</a></p>
           </div>
           <div class="card-reveal">
-            <span class="card-title grey-text text-darken-4">Robô Ed<i class="material-icons right">close</i></span>
-            <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            <span class="card-title grey-text text-darken-4">Robô ED<i class="material-icons right">close</i></span>
+            <p>Meu nome é <b>Robô ED</b>, fui criado pra tornar seu grupo mais divertido e organizado.</p>
           </div>
         </div>
      </div>
@@ -49,7 +49,7 @@
           </div>
           <div class="card-reveal">
             <span class="card-title grey-text text-darken-4">Sete Zoom<i class="material-icons right">close</i></span>
-            <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            <p>Meu nome é <b>Sete Zoom</b>, fui criada pra tornar seu grupo mais divertido.</p>
           </div>
         </div>
      </div>
@@ -67,7 +67,7 @@
           </div>
           <div class="card-reveal">
             <span class="card-title grey-text text-darken-4">Simsimi<i class="material-icons right">close</i></span>
-            <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            <p>Meu nome é <b>SimSimi</b>, fui criado para bater papo com você.</p>
           </div>
         </div>
      </div>
@@ -98,10 +98,10 @@
               <h1><i class="large material-icons">chat_bubble</i></h1>
             </div>
             <div class="col s12 m12 12 ">
-              <h5>Grupo Oficial do Robô Ed</h5>
+              <h5>Grupo Oficial do Robô ED</h5>
             </div>
             <div class="col s12 m12 12 box-nano">
-              <p>Junta-te ao grupo oficial do Robô Ed, faz amigos, conversa com os
+              <p>Junta-te ao grupo oficial do Robô ED, faz amigos, conversa com os
               administradores e muito mais.</p>
             </div>
             <div class="card-action">
@@ -122,12 +122,12 @@
           <h1><i class="large material-icons">thumb_up</i></h1>
         </div>
         <div class="col s12 m12 12 ">
-          <h5>Canal Oficial do Robô Ed</h5>
+          <h5>Canal Oficial do Robô ED</h5>
         </div>
         <div class="col s12 m12 12 box-nano">
-          <p>Bem, gostas de estar atualizado? Gostas do Robô Ed?
-            Então faz como muitos usuários, subscreve o canal de divulgações do Robô Ed e
-          fica atualizado sobre as ultimas novidades do Ed.</p>
+          <p>Bem, gostas de estar atualizado? Gostas do Robô ED?
+            Então faz como muitos usuários, subscreve o canal de divulgações do Robô ED e
+          fica atualizado sobre as ultimas novidades do ED.</p>
         </div>
         <div class="col s12 m12 12 ">
           <a class="btn blue darken-4 waves-effect waves-light" href="https://telegram.me/RoboED"> Aderir
@@ -144,10 +144,10 @@
           <h1><i class="large material-icons">volume_up</i></h1>
         </div>
         <div class="col s12 m12 12 ">
-          <h5>Canal de Divulgações do Robô Ed</h5>
+          <h5>Canal de Divulgações do Robô ED</h5>
         </div>
         <div class="col s12 m12 12 box-nano">
-          <p>Queres divulgar, queres ver as divulgações da comunidade do Robô Ed?
+          <p>Queres divulgar, queres ver as divulgações da comunidade do Robô ED?
           Então clica em baixo para veres as divulgações.</p>
         </div>
         <div class="col s12 m12 12 ">
