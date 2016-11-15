@@ -7,7 +7,7 @@
     $texto   = $_POST['texto'];
     $token = '298729691:AAEyjhcfFsoJjoh83eaAF46H3C__nDIb4Bc'; //HERE TOKEN
     $canal = '-1001088700135'; //HERE ID
-    $message = '': //MSG
+    $message = ''; //MSG
 
     if(empty($nome) OR $nome == "")
     {
