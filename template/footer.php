@@ -45,9 +45,13 @@
               <div class="col l4 offset-l2 s12">
                 <h5 class="white-text">Links</h5>
                 <ul>
-                  <li><a class="grey-text text-lighten-3" href="http://synko.com.br/">Home</a></li>
-                  <li><a class="grey-text text-lighten-3" href="?p=comandos">Comandos</a></li>
-                  <li><a class="grey-text text-lighten-3" href="?p=colaboradores">Colaboradores</a></li>
+                  <li><a class="grey-text text-lighten-3" href="http://synko.com.br/#">Home</a></li>
+                  <li><a class="grey-text text-lighten-3" href="http://synko.com.br/#bots">Bots</a></li>
+                  <li><a class="grey-text text-lighten-3" href="http://synko.com.br/#grupos">Grupos</a></li>
+                  <li><a class="grey-text text-lighten-3" href="http://synko.com.br/?p=comandos">Comandos</a></li>
+                  <li><a class="grey-text text-lighten-3" href="http://synko.com.br/#equipe">Equipe</a></li>
+                  <li><a class="grey-text text-lighten-3" href="http://synko.com.br/?p=colaboradores">Colaboradores</a></li>
+                  <li><a class="grey-text text-lighten-3" href="http://synko.com.br/#contatos">Contato</a></li>
                 </ul>
               </div>
             </div>
