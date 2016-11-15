@@ -9,7 +9,7 @@
             <div class="section">
               <div class="row white-text">
                 <div class="col s12 m12 l6">
-                  <img src="template/images/simi.png" width="52px" height="52px">
+                  <img src="template/images/bots/simi.png" width="52px" height="52px">
                 </div>
                 <div class="col s12 m12 l6">
                   <h5>SimSim</h5>
