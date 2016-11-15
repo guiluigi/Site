@@ -1,4 +1,4 @@
-<footer id="contatos" class="page-footer light-blue accent-3">
+<footer id="contatos" class="page-footer light-blue darken-2">
         <div class="container">
           <div class="row">
 
@@ -39,7 +39,6 @@
                     </div>
                   </form>
                   <!--final do formulário-->
-
                 </div>
               </div>
 
@@ -51,17 +50,12 @@
                   <li><a class="grey-text text-lighten-3" href="?p=colaboradores">Colaboradores</a></li>
                 </ul>
               </div>
-
             </div>
-
-
           </div>
 
         <div class="footer-copyright">
-          <div class="container">
-          Synko © 2014 Todos os direitos reservados
+          <div class="container">Synko © 2014 Todos os direitos reservados
           <a class="white-text text-lighten-4 right" href="#gg">Site desenhado por Gualter Perinho<a/>
-
           </div>
         </div>
       </footer>
@@ -70,7 +64,6 @@
 
       <!-- Compiled and minified JavaScript -->
       <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
-
 
       <script type="text/javascript">
         $( document ).ready(function(){

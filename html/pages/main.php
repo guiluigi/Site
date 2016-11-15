@@ -1,7 +1,7 @@
 <!--Inicio do documento-->
 
 <!--primeira class row-->
-<div class="section light-blue accent-3 first-section">
+<div class="section light-blue darken-2 first-section">
 <div class="row margin-top">
     <!--Primeira linha-->
      <div class="col s12 wow bounceInDown">
