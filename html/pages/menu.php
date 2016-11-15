@@ -16,11 +16,11 @@
   </div>
 </nav>
 <ul class="side-nav" id="mobile-demo">
-  <li><a href="http://synko.com.br/">Home</a></li>
-  <li><a href="http://synko.com.br/#bots">Bots</a></li>
-  <li><a href="http://synko.com.br/#grupos">Grupos</a></li>
-  <li><a href="?p=comandos">Comandos</a></li>
-  <li><a href="http://synko.com.br/#equipe">Equipe</a></li>
-  <li><a href="?p=colaboradores">Colaboradores</a></li>
-  <li><a href="http://synko.com.br/#contatos">Contatos</a></li>
+  <li><a href="http://synko.com.br/">Home<i class="material-icons">home</i></a></li>
+  <li><a href="http://synko.com.br/#bots">Bots<i class="material-icons">settings</i></a></li>
+  <li><a href="http://synko.com.br/#grupos">Grupos<i class="material-icons">group</i></a></li>
+  <li><a href="?p=comandos">Comandos<i class="material-icons">home</i></a></li>
+  <li><a href="http://synko.com.br/#equipe">Equipe<i class="material-icons">domain</i></a></li>
+  <li><a href="?p=colaboradores">Colaboradores<i class="material-icons">person_add</i></a></li>
+  <li><a href="http://synko.com.br/#contatos">Contato<i class="material-icons">perm_contact_calendar</i></a></li>
 </ul>
