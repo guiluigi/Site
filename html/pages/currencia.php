@@ -20,7 +20,7 @@
           <!--tabela-->
           <div class="col s12 m12 l12">
             <div class="section">
-            <table class="responsive-table">
+              <table class="responsive-table highlight">
               <thead>
                 <tr class="light-blue darken-2 white-text">
                   <th>Código</th>
