@@ -1,6 +1,5 @@
 <?php
-
-  error_reporting(E_ALL & ~E_NOTICE);
+    error_reporting(E_ALL & ~E_NOTICE);
     $nome    = $_POST['nome'];
     $usuario = $_POST['usuario'];
     $assunto = $_POST['assunto'];
@@ -34,11 +33,11 @@
     }
     else
     {
-              $message = $_POST['nome'].' @'.$_POST['usuario'].' '.$_POST['assunto'].' '.$_POST['texto'];
+              $message = "Nome: ".$nome."\nUsuário: @".$usuario."\nAssunto: ".$assunto."\nMensagem:\n".$texto;
               $url_telegram = 'https://api.telegram.org/bot'.$token.'';
               $text = urlencode(''.$message.'');
-              $url = ''.$url_telegram.'/sendMessage?chat_id='.$canal.'&text='.$message.'';
-
+              $url = ''.$url_telegram.'/sendMessage?chat_id='.$canal.'&text='.$text.'';
+              /*
               $ch = curl_init();
               curl_setopt($ch, CURLOPT_URL, $url_end);
               curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
@@ -46,4 +45,8 @@
               curl_close($ch);
               $res = substr($output, 0, 11);
               echo '<p>Mensagem enviada com sucesso.</p>';
+              */
+
+              header("Location:".$url);
+
     }
