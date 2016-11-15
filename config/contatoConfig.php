@@ -5,6 +5,9 @@
     $usuario = $_POST['usuario'];
     $assunto = $_POST['assunto'];
     $texto   = $_POST['texto'];
+    $token = '298729691:AAEyjhcfFsoJjoh83eaAF46H3C__nDIb4Bc'; //HERE TOKEN
+    $canal = '-1001088700135'; //HERE ID
+    $message = '': //MSG
 
     if(empty($nome) OR $nome == "")
     {
@@ -31,5 +34,16 @@
     }
     else
     {
-      echo '<p>Mensagem enviada com sucesso.</p>';
+              $message = $_POST['nome'].' @'.$_POST['usuario'].' '.$_POST['assunto'].' '.$_POST['texto'];
+              $url_telegram = 'https://api.telegram.org/bot'.$token.'';
+              $text = urlencode(''.$message.'');
+              $url = ''.$url_telegram.'/sendMessage?chat_id='.$canal.'&text='.$message.'';
+
+              $ch = curl_init();
+              curl_setopt($ch, CURLOPT_URL, $url_end);
+              curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+              $output = curl_exec($ch);
+              curl_close($ch);
+              $res = substr($output, 0, 11);
+              echo '<p>Mensagem enviada com sucesso.</p>';
     }
