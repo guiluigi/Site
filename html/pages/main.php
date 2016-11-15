@@ -16,7 +16,7 @@
      <div class="section-white second-section">
        <div class="row">
      <div id="bots" class="col s12 bots">
-       <h1>Bots</h1>
+       <h1>BOT's</h1>
      </div>
      <!--Bot ED-->
      <div class="col s12 m4 l4 wow slideInLeft">
@@ -34,7 +34,6 @@
           </div>
         </div>
      </div>
-
      <!--Fim bot ed-->
 
      <!--Bot Sete-->

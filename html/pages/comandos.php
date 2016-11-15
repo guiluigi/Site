@@ -5,9 +5,9 @@
     </div>
     <div class="col s12">
       <ul class="tabs">
-        <li class="tab col s3"><a class="active blue-text text-darken-4"href="#ed">Ed</a></li>
+        <li class="tab col s3"><a class="active blue-text text-darken-4"href="#ed">ED</a></li>
         <li class="tab col s3"><a class="blue-text text-darken-4" href="#sete">Sete Zoom</a></li>
-        <li class="tab col s3"><a class="blue-text text-darken-4" href="#simi">SimSim</a></li>
+        <li class="tab col s3"><a class="blue-text text-darken-4" href="#simi">SimSimi</a></li>
         <li class="tab col s3"><a class="blue-text text-darken-4" href="#currencia">Currência</a></li>
       </ul>
     </div>

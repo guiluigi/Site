@@ -12,7 +12,7 @@
                   <img src="template/images/ed.png" width="52px" height="52px">
                 </div>
                 <div class="col s12 m12 l6">
-                  <h5>Robô Ed</h5>
+                  <h5>Robô ED</h5>
                 </div>
             </div>
           </div>
@@ -101,7 +101,7 @@
                   <td>/filme <b>Texto</b></td>
                 </tr>
                 <tr>
-                  <td>IMDB</td>
+                  <td>IMDb</td>
                   <td>Pesquisar por filmes Séries no site IMDb.com, envie o comando e em seguida o nome do filme ou série em inglês.</td>
                   <td>/imdb <b>Texto</b></td>
                 </tr>
