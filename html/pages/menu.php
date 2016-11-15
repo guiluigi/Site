@@ -1,8 +1,8 @@
 <div class="navbar-fixed">
     <nav class="light-blue darken-2 menu">
          <div class="nav-wrapper light-blue accent-3">
-           <a href="http://synko.com.br/" class="brand-logo logo"><img src="template/images/Logo.svg" width="32px" height="32px"></a>
            <div class="container">
+           <a href="http://synko.com.br/" class="brand-logo logo"><img src="template/images/Logo.svg" width="32px" height="32px"></a>
            <ul class="right hide-on-med-and-down">
              <li><a href="http://synko.com.br/">Home</a></li>
              <li><a href="http://synko.com.br/#bots">Bots</a></li>
