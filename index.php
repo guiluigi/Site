@@ -7,7 +7,7 @@
   }
   elseif ($_GET['p'] !== "")
   {
-    $title = 'Synko - Developers - '.$_GET['p'];
+    $title = 'Synko - Developers - '.ucfirst($_GET['p']);
   }
 
 
