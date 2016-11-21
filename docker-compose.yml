@@ -12,6 +12,7 @@ services:
     image: php:7-fpm-alpine
     volumes:
       - .:/usr/share/nginx/html:ro
+      - ./log.conf:/usr/local/etc/php-fpm.d/zz-log.conf
 
 # TODO: Usar template em vez de arquivo absoluto para as configurações do nginx
 #   nginx:
