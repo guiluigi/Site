@@ -91,7 +91,7 @@
   </div>
 
   <!--Grupo oficial-->
-  <div class="col s12 m4 l4 wow fadeInDown">
+  <div class="col s12 m4 l4 wow fadeInDown" data-wow-delay = "0.1s">
     <div class="row">
       <div class="col s12 m12 12">
         <h1><i class="large material-icons">chat_bubble</i></h1>
@@ -115,7 +115,7 @@
     <!--Fim do grupo oficial-->
 
     <!--inicio divulga ed-->
-    <div class="col s12 m4 l4 second-section size-medium wow fadeInDown">
+    <div class="col s12 m4 l4 second-section size-medium wow fadeInDown" data-wow-delay = "0.2s">
       <div class="row">
         <div class="col s12 m12 12">
           <h1><i class="large material-icons">thumb_up</i></h1>
@@ -137,7 +137,7 @@
       </div>
       <!--fim divulga ed-->
 
-      <div class="col s12 m4 l4 wow fadeInDown">
+      <div class="col s12 m4 l4 wow fadeInDown" data-wow-delay = "0.3s">
         <div class="row">
           <div class="col s12 m12 12">
             <h1><i class="large material-icons">volume_up</i></h1>
