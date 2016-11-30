@@ -167,7 +167,7 @@
         <div class="col s12 m4 l4 wow fadeInDown" data-wow-duration="2s">
           <div class="card small">
             <div>
-              <img class="circle" src="template/images/equipe/tigui.jpg" width="128px" height="128px">
+              <img class="circle" src="template/images/equipe/tigui.png" width="128px" height="128px">
             </div>
             <div class="card-content">
               <h3>Tiago Danin</h3>
@@ -179,7 +179,7 @@
         <div class="col s12 m4 l4 wow fadeInDown" data-wow-duration="2s">
           <div class="card small">
             <div>
-              <img class="circle" src="template/images/equipe/vh.jpg" width="128px" height="128px">
+              <img class="circle" src="template/images/equipe/vh.png" width="128px" height="128px">
             </div>
             <div class="card-content">
               <h3>Vycktor Stark</h3>
@@ -191,7 +191,7 @@
         <div class="col s12 m4 l4 wow fadeInDown" data-wow-duration="2s">
           <div class="card small">
             <div>
-              <img class="circle" src="template/images/equipe/wes.jpg" width="128px" height="128px">
+              <img class="circle" src="template/images/equipe/wes.png" width="128px" height="128px">
             </div>
             <div class="card-content">
               <h3>Wesley Henr</h3>
