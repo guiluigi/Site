@@ -19,7 +19,7 @@
       <h1>BOT's</h1>
     </div>
     <!--Bot ED-->
-    <div class="col s12 m4 l4 wow slideInLeft">
+    <div class="col s12 m4 l4 wow fadeInDown">
       <div class="card small">
         <div class="waves-effect waves-block waves-light">
           <img class="activator" src="template/images/bots/ed.png" width="128px" height="128px">
@@ -37,7 +37,7 @@
     <!--Fim bot ed-->
 
     <!--Bot Sete-->
-    <div class="col s12 m4 4 second-section wow bounceInDown">
+    <div class="col s12 m4 4 second-section wow fadeInDown">
       <div class="card small">
         <div class="waves-effect waves-block waves-light">
           <img class="activator" src="template/images/bots/sete.png" width="128px" height="128px">
@@ -55,7 +55,7 @@
     <!--Fim bot Sete-->
 
     <!--Inicio bot simi-->
-    <div class="col s12 m4 4 second-section wow slideInRight">
+    <div class="col s12 m4 4 second-section wow fadeInDown">
       <div class="card small">
         <div class="waves-effect waves-block waves-light">
           <img class="activator" src="template/images/bots/simi.png" width="128px" height="128px">
