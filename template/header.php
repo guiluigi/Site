@@ -23,3 +23,8 @@
     </script>
   </head>
 <body>
+  <div class="fixed-action-btn">
+      <a class="btn-floating btn-large light-blue darken-1" href="#top">
+        <i class="large material-icons">mode_edit</i>
+      </a>
+    </div>

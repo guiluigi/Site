@@ -1,4 +1,4 @@
-<nav class="menu">
+<nav id="top" class="menu">
   <div class="nav-wrapper light-blue darken-2">
       <div class="container">
       <a href="#" class="brand-logo"><img src="template/images/Logo.svg" width="32px" height="32px"></a>
