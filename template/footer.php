@@ -1,3 +1,13 @@
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <!-- Ad1 -->
+  <ins class="adsbygoogle"
+       style="display:block"
+       data-ad-client="ca-pub-2798297749593422"
+       data-ad-slot="5724890592"
+       data-ad-format="auto"></ins>
+  <script>
+  (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
 <footer id="contatos" class="page-footer light-blue darken-2">
   <div class="container">
     <div class="row">
@@ -57,19 +67,10 @@
     </div>
   </div>
 
-  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-  <!-- Ad1 -->
-  <ins class="adsbygoogle"
-       style="display:block"
-       data-ad-client="ca-pub-2798297749593422"
-       data-ad-slot="5724890592"
-       data-ad-format="auto"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+  
 
   <div class="footer-copyright">
-    <div class="container">Synko © 2014 Todos os direitos reservados
+    <div class="container">Synko © 2016 Todos os direitos reservados
       <a class="white-text text-lighten-4 right" href="#gg">Site desenhado por Gualter Perinho<a/>
       </div>
     </div>
