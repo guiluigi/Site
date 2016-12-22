@@ -14,16 +14,15 @@
     <link rel="stylesheet" type='text/css' href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" type='text/css' href="https://fonts.googleapis.com/css?family=Nunito">
     <link rel="stylesheet" type='text/css' href="https://fonts.googleapis.com/css?family=Coiny">
-    
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<script>
+  	(adsbygoogle = window.adsbygoogle || []).push({
+    	google_ad_client: "ca-pub-2798297749593422",
+    	enable_page_level_ads: true
+  	});
+</script>
   </head>
 <body>
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <script>
-    (adsbygoogle = window.adsbygoogle || []).push({
-      google_ad_client: "ca-pub-2798297749593422",
-      enable_page_level_ads: true
-    });
-    </script>
   <div class="fixed-action-btn">
       <a class="btn-floating btn-large light-blue darken-1" href="#top">
         <i class="large material-icons">navigation</i>

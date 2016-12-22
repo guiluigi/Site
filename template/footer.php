@@ -1,13 +1,13 @@
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-  <!-- Ad1 -->
-  <ins class="adsbygoogle"
-       style="display:block"
-       data-ad-client="ca-pub-2798297749593422"
-       data-ad-slot="5724890592"
-       data-ad-format="auto"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+<!-- AdResponsivo -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2798297749593422"
+     data-ad-slot="3265351399"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <footer id="contatos" class="page-footer light-blue darken-2">
   <div class="container">
     <div class="row">
