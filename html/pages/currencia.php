@@ -12,7 +12,7 @@
                   <img class="circle" src="template/images/dollar.jpg" width="52px" height="52px">
                 </div>
                 <div class="col s12 m12 l6">
-                  <h5>Currência</h5>
+                  <h5>Conversor de moedas</h5>
                 </div>
             </div>
           </div>
