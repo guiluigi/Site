@@ -19,7 +19,7 @@
       <h1>BOT's</h1>
     </div>
     <!--Bot ED-->
-		<div class="col s12 m6 4 second-section wow fadeInDown">
+    <div class="col s12 m6 4 second-section wow fadeInDown">
       <div class="card small">
         <div class="waves-effect waves-block waves-light">
           <img class="activator" src="template/images/bots/ed.png" width="128px" height="128px">
@@ -35,25 +35,7 @@
       </div>
     </div>
     <!--Fim bot ed-->
-
-    <!--Bot Sete
-    <div class="col s12 m4 4 second-section wow fadeInDown">
-      <div class="card small">
-        <div class="waves-effect waves-block waves-light">
-          <img class="activator" src="template/images/bots/sete.png" width="128px" height="128px">
-        </div>
-        <div class="card-content">
-          <span class="card-title activator grey-text text-darken-4">Sete Zoom<i class="material-icons right">more_vert</i></span>
-          <p><a href="https://telegram.me/SeteZoomBot">Link</a></p>
-        </div>
-        <div class="card-reveal">
-          <span class="card-title grey-text text-darken-4">Sete Zoom<i class="material-icons right">close</i></span>
-          <p>Meu nome é <b>Sete Zoom</b>, fui criada pra tornar seu grupo mais divertido.</p>
-        </div>
-      </div>
-    </div>
-    Fim bot Sete-->
-
+    
     <!--Inicio bot simi-->
     <div class="col s12 m6 4 second-section wow fadeInDown">
       <div class="card small">
@@ -85,11 +67,11 @@
 
 <!--Inicio da segunda classe row-->
 <div class="row txt-center light-blue darken-4 white-text">
-
+  
   <div id="grupos" class="col s12 m12 12 bots wow fadeInDown">
     <h1>Grupos Oficiais</h1>
   </div>
-
+  
   <!--Grupo oficial-->
   <div class="col s12 m4 l4 wow fadeInDown" data-wow-delay = "0.1s">
     <div class="row">
@@ -113,7 +95,7 @@
       </div>
     </div>
     <!--Fim do grupo oficial-->
-
+    
     <!--inicio divulga ed-->
     <div class="col s12 m4 l4 second-section size-medium wow fadeInDown" data-wow-delay = "0.2s">
       <div class="row">
@@ -136,7 +118,7 @@
         </div>
       </div>
       <!--fim divulga ed-->
-
+      
       <div class="col s12 m4 l4 wow fadeInDown" data-wow-delay = "0.3s">
         <div class="row">
           <div class="col s12 m12 12">
@@ -158,7 +140,7 @@
         </div>
       </div>
       <!--Fim da segunda classe row-->
-
+      
       <!--Inicio da terceira classe row-->
       <div class="row second-section">
         <div id="equipe" class="col s12 bots wow fadeInDown" data-wow-duration="2s">
@@ -173,7 +155,6 @@
               <h3>Tiago Danin</h3>
               <p>Have 18 years, i'm a genius, developer, i love music, graphic animation and 3D modeling..</p>
             </div>
-
           </div>
         </div>
         <div class="col s12 m4 l4 wow fadeInDown" data-wow-duration="2s">
@@ -185,7 +166,6 @@
               <h3>Vycktor Stark</h3>
               <p>Have 17 years, I'm a programmer - I'm currently volunteering on a project (robotics at school), and I love what I do.</p>
             </div>
-
           </div>
         </div>
         <div class="col s12 m4 l4 wow fadeInDown" data-wow-duration="2s">
@@ -197,9 +177,7 @@
               <h3>Wesley Henr</h3>
               <p>Veni, Vidi, Vici</p>
             </div>
-
           </div>
         </div>
-
       </div>
       <!--fim terceira classe row-->
