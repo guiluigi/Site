@@ -183,7 +183,7 @@
             </div>
             <div class="card-content">
               <h3>Vycktor Stark</h3>
-              <p>Tenho 19 anos, Sou programador e faço parte desta Equipe!</p>
+              <p>Have 17 years, I'm a programmer - I'm currently volunteering on a project (robotics at school), and I love what I do.</p>
             </div>
 
           </div>
