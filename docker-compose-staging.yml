@@ -6,7 +6,7 @@ services:
       - VIRTUAL_HOST=staging.synko.com.br
       - VIRTUAL_NETWORK=stagingstack_default
       - VIRTUAL_PORT=80
-      - LETSENCRYPT_HOST=staging.synko.com.br
+      - LETSENCRYPT_HOST=synko.com.br
       - LETSENCRYPT_EMAIL=yangm97@gmail.com
       - LETSENCRYPT_TEST=true
     image: nginx:alpine
