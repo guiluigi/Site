@@ -1,0 +1,104 @@
+stages:
+  # - build
+  # - review
+  - staging
+  - production
+
+variables:
+  DOCKER_DRIVER: overlay2
+
+cache:
+  paths:
+  - node_modules/
+  - bower_components/
+
+# build:
+#   image: node:latest
+#   artifacts:
+#     paths:
+#       - dist
+#   stage: build
+#   tags:
+#     - docker
+#   script:
+#     - npm install -g gulp bower
+#     - npm install
+#     - bower install --allow-root
+#     - npm run build
+
+# review:
+#   stage: review
+#   script:
+#     - rsync -av --delete dist /srv/nginx/pages/$CI_BUILD_REF_SLUG
+#   environment:
+#     name: review/$CI_BUILD_REF_NAME
+#     url: http://$CI_BUILD_REF_SLUG.$APPS_DOMAIN
+#     on_stop: stop_review
+#   only:
+#     - branches
+#   except:
+#     - master
+#     - production
+#   tags:
+#     - shell
+
+# stop_review:
+#   stage: review
+#   script:
+#     - rm -rf dist /srv/nginx/pages/$CI_BUILD_REF_SLUG
+#   variables:
+#     GIT_STRATEGY: none
+#   when: manual
+#   environment:
+#     name: review/$CI_BUILD_REF_NAME
+#     action: stop
+#   tags:
+#     - shell
+
+staging:
+  stage: staging
+  script:
+    - cd ..
+    - rsync -av --delete Site/ /srv/stagingsite/
+    - cd /srv/stagingsite/
+    - docker-compose -f docker-compose-staging.yml pull
+    - docker-compose -f docker-compose-staging.yml up -d --remove-orphan
+  environment:
+    name: staging
+    url: http://staging.$APPS_DOMAIN
+  only:
+    - master
+  tags:
+    - shell
+
+production:
+  stage: production
+  script:
+    - cd ..
+    - rsync -av --delete Site/ /srv/productionsite/
+    - cd /srv/productionsite/
+    - docker-compose -f docker-compose-production.yml pull
+    - docker-compose -f docker-compose-production.yml up -d --remove-orphan
+  environment:
+    name: production
+    url: http://$APPS_DOMAIN
+  when: manual
+  only:
+    - production
+  tags:
+    - shell
+
+# build_image:
+#   image: docker:latest
+#   stage: build_image
+#   tags:
+#     - docker
+#   dependencies:
+#     - build_app
+#   services:
+#     - docker:dind
+#   script:
+#     - docker login -u "gitlab-ci-token" -p "$CI_BUILD_TOKEN" $CI_REGISTRY
+#     # - docker pull "$CI_REGISTRY_IMAGE:master"
+#     - docker build --cache-from "$CI_REGISTRY_IMAGE:master" -t "$CI_REGISTRY_IMAGE:$CI_BUILD_REF_SLUG" -f .Dockerfile .
+#     - docker push "$CI_REGISTRY_IMAGE:$CI_BUILD_REF_SLUG"
