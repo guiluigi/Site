@@ -61,7 +61,7 @@ staging:
     - cd ..
     - rsync -av --delete Site/ /srv/stagingsite/
     - cd /srv/stagingsite/
-    - docker-compose up -d
+    - docker-compose -f docker-compose-staging.yml up -d
   environment:
     name: staging
     url: http://staging.$APPS_DOMAIN
