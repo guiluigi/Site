@@ -61,7 +61,8 @@ staging:
     - cd ..
     - rsync -av --delete Site/ /srv/stagingsite/
     - cd /srv/stagingsite/
-    - docker-compose -f docker-compose-staging.yml up -d
+    - docker-compose -f docker-compose-staging.yml pull
+    - docker-compose -f docker-compose-staging.yml up -d --remove-orphan
   environment:
     name: staging
     url: http://staging.$APPS_DOMAIN
