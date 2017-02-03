@@ -75,9 +75,10 @@ production:
   stage: production
   script:
     - cd ..
-    - rsync -av --delete Site/ /srv/stagingsite/
-    - cd /srv/stagingsite/
-    - docker-compose up -d
+    - rsync -av --delete Site/ /srv/productionsite/
+    - cd /srv/productionsite/
+    - docker-compose -f docker-compose-production.yml pull
+    - docker-compose -f docker-compose-production.yml up -d --remove-orphan
   environment:
     name: production
     url: http://$APPS_DOMAIN
