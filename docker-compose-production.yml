@@ -4,14 +4,14 @@ services:
   site_nginx:
     environment:
       - VIRTUAL_HOST=synko.com.br,www.synko.com.br
-      - VIRTUAL_NETWORK=stagingstack_default
+      - VIRTUAL_NETWORK=stack_default
       - VIRTUAL_PORT=80
       - LETSENCRYPT_HOST=synko.com.br
       - LETSENCRYPT_EMAIL=yangm97@gmail.com
     image: nginx:alpine
     networks:
       - default
-      - stagingstack_default
+      - stack_default
     restart: always
     volumes:
       - .:/usr/share/nginx/html:ro
@@ -23,5 +23,5 @@ services:
       - ./log.conf:/usr/local/etc/php-fpm.d/zz-log.conf
 
 networks:
-  stagingstack_default:
+  stack_default:
     external: true
