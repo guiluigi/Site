@@ -4,11 +4,11 @@ services:
   nginx:
     image: nginx:alpine
     networks:
-      - default
       - stack_default
     restart: always
     labels:
       - "traefik.backend=production-site"
+      - "traefik.enable=true"
       - "traefik.frontend.rule=Host: synko.com.br, www.synko.com.br"
       - "traefik.port=80"
     volumes:
@@ -17,6 +17,8 @@ services:
 
   php:
     image: php:7-fpm-alpine
+    networks:
+      - stack_default
     volumes:
       - .:/usr/share/nginx/html:ro
       - ./log.conf:/usr/local/etc/php-fpm.d/zz-log.conf
