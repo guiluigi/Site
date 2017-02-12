@@ -82,7 +82,6 @@ production:
   environment:
     name: production
     url: http://$APPS_DOMAIN
-  when: manual
   only:
     - production
   tags:
