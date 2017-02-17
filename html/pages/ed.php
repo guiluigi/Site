@@ -149,7 +149,7 @@
                 <tr>
                   <td>Trânsito</td>
                   <td>Visualizar informações sobre o transito de São Paulo.</td>
-                  <td>/trânsito <b>Local</b></td>
+                  <td>/transito <b>Local</b></td>
                 </tr>
                 <tr>
                 </tr>
