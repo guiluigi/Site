@@ -1,5 +1,5 @@
 <?php
-  if($_GET['a'] == "contato")
+  if($_GET['p'] == "contato")
   {
         require_once('config/contatoConfig.php');
   }
