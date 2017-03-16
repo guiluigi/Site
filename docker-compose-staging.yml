@@ -19,6 +19,7 @@ services:
     image: php:7-fpm-alpine
     networks:
       - stack_default
+    restart: always
     volumes:
       - .:/usr/share/nginx/html:ro
       - ./log.conf:/usr/local/etc/php-fpm.d/zz-log.conf
