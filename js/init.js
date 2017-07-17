@@ -23,7 +23,6 @@
 
 		initHeadline();
 
-
 		function initHeadline() {
 			singleLetters($('.cd-headline.letters').find('b'));
 			animateHeadline($('.cd-headline'));
@@ -293,15 +292,9 @@
 			}, false);
 		}
 
-
 		function hidePopup(e) {
 			e.target.style['visibility'] = 'hidden';
 			e.target.style['zIndex'] = 2;
 		}
-
-		// [].forEach.call(card, function(card) {
-		// 	card.addEventListener('click', scaleCard, false);
-		// });
-
-	}); // end of document ready
-})(jQuery); // end of jQuery name space
+	});
+})(jQuery);
