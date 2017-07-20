@@ -17,7 +17,10 @@
 
 <body>
 	<nav class="bluetg" role="navigation">
-		<div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo"><img src="img/logo.svg" width="32px" height="32px"></a>
+		<div class="nav-wrapper container">
+			<a id="logo-container" href="#" class="brand-logo">
+				<img src="img/logo.svg" margin-top="5px" width="32px" height="32px">
+			</a>
 			<ul class="right hide-on-med-and-down">
 				<li><a href="#" class="white-text">Menu</a></li>
 			</ul>
@@ -32,7 +35,7 @@
 	<div id="index-banner">
 		<div class="section no-pad-bot bluetg text-banner">
 			<div class="container">
-				<h1 class="animated bounceInDown">Synko - Developers </h1>
+				<h1 class="animated bounceInDown thin">Synko - Developers </h1>
 				<div class="row">
 					<h5 class="col s12 light animated rubberBand"><em>Os melhores bots do telegram estão aqui!</em></h5>
 				</div>
@@ -43,10 +46,9 @@
 
 	<div class="section">
 		<div class="container">
-			<!--   Icon Section   -->
-			<div class="row">
+			<div class="row center">
 				<div class="col s12">
-					<span><h2 class="center light-blue-text animated bounceInDown">Nossos Bot's</h2></span>
+					<span><h2 class="center light-blue-text animated bounceInDown thin">Nossos Bot's</h2></span>
 				</div>
 
 				<div class="card col s12 m4 hoverable">
@@ -106,10 +108,9 @@
 
 	<div class="container">
 		<div class="section">
-			<!--   Icon Section   -->
 			<div class="row">
 				<div class="col s12">
-					<span><h2 class="center light-blue-text animated bounceInDown">Grupos e Canais Oficiais</h2></span>
+					<span><h2 class="center light-blue-text animated bounceInDown thin">Grupos e Canais Oficiais</h2></span>
 				</div>
 
 				<div class="card col s12 m4 hoverable">
@@ -171,7 +172,7 @@
 		<div class="section">
 			<div class="row">
 				<div class="col s12">
-					<span><h2 class="center light-blue-text animated bounceInDown">Equipe</h2></span>
+					<span><h2 class="center light-blue-text animated thin bounceIn">Equipe</h2></span>
 				</div>
 
 				<div class="card col s6 m3 hoverable">
@@ -252,38 +253,49 @@
 	<footer class="page-footer bluetg">
 		<div class="container">
 			<div class="row">
-				<div class="col l6 s12">
-					<h5 class="white-text">Formulario</h5>
-					<p class="grey-text text-lighten-4">A população ela precisa da Zona Franca de Manaus, porque na Zona franca de Manaus, não é uma zona de exportação, é uma zona para o Brasil. Portanto ela tem um objetivo, ela evita o desmatamento, que é altamente lucravito. Derrubar arvores da natureza
-						é muito lucrativo!</p>
 
-				</div>
-				<div class="col l3 s12">
-					<h5 class="white-text">Settings</h5>
-					<ul>
-						<li><a class="white-text" href="#!">Link 1</a></li>
-						<li><a class="white-text" href="#!">Link 2</a></li>
-						<li><a class="white-text" href="#!">Link 3</a></li>
-						<li><a class="white-text" href="#!">Link 4</a></li>
-					</ul>
-				</div>
-				<div class="col l3 s12">
-					<h5 class="white-text">Connect</h5>
-					<ul>
-						<li><a class="white-text" href="#!">Link 1</a></li>
-						<li><a class="white-text" href="#!">Link 2</a></li>
-						<li><a class="white-text" href="#!">Link 3</a></li>
-						<li><a class="white-text" href="#!">Link 4</a></li>
-					</ul>
+				<div class="col l6 s12" id="contatos">
+					<h5 class="white-text">Contato</h5>
+					<div class="col s12 m12 12">
+						<form class="contatoForm" method="post" action="actions.php?a=contato">
+							<div class="row">
+
+								<div class="input-field col s6">
+									<input class="validate" id="name" name="nome" type="text">
+									<label class="white-text" for="name">Nome</label>
+								</div>
+								<div class="input-field col s6">
+									<input class="validate" id="usuario" name="usuario" type="text">
+									<label class="white-text" for="email">Usuário do Telegram</label>
+								</div>
+								<div class="input-field col s12">
+									<input class="validate" id="assunto" name="assunto" type="text">
+									<label class="white-text" for="assunto">Assunto</label>
+								</div>
+								<div class="input-field col s12">
+									<textarea name="texto" id="texto" class="materialize-textarea"></textarea>
+									<label class="white-text" for="texto">Texto</label>
+								</div>
+								<div class="input-field col s6">
+									<button class="btn light-blue darken-4 waves-effect waves-light" type="submit" name="contatoBtn">Enviar
+										<i class="material-icons right">send</i>
+									</button>
+								</div>
+								<div class="col s12 m12 l12 contatoMessages white-text">
+								</div>
+							</div>
+						</form>
+					</div>
 				</div>
 			</div>
 		</div>
-		<div class="footer-copyright bluetg">
-			<div class="container thin">Made by <a href="t.m/Wesley_Henr" class="white-text">Wesley_Henr</a></div>
+
+		<div class="footer-copyright thin hoverable">
+			<div class="container">© 2012-2017 Synko, Todos os direitos reservados.
+				<a class="white-text right thin" href="https://github.com/SynkoDevelopers/Site/graphs/contributors">Site desenvolvido por Synko Developers</a>
+			</div>
 		</div>
 	</footer>
-
-	<!--  Scripts-->
 	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 	<script src="js/materialize.js"></script>
 	<script src="js/init.js"></script>
