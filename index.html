@@ -257,7 +257,7 @@
 				<div class="col l6 s12" id="contatos">
 					<h5 class="white-text">Contato</h5>
 					<div class="col s12 m12 12">
-						<form class="contatoForm" method="post" action="actions.php?a=contato">
+						<form class="contatoForm">
 							<div class="row">
 
 								<div class="input-field col s6">
@@ -277,11 +277,12 @@
 									<label class="white-text" for="texto">Texto</label>
 								</div>
 								<div class="input-field col s6">
-									<button class="btn light-blue darken-4 waves-effect waves-light" type="submit" name="contatoBtn">Enviar
+									<button class="btn light-blue darken-4 waves-effect waves-light" type="button" name="contatoBtn" onclick="sendTelegram()">Enviar
 										<i class="material-icons right">send</i>
 									</button>
 								</div>
-								<div class="col s12 m12 l12 contatoMessages white-text">
+								<div class="input-field col s6">
+									<label class="white-text" id="textSending"></label>
 								</div>
 							</div>
 						</form>
@@ -298,6 +299,7 @@
 	</footer>
 	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 	<script src="js/materialize.js"></script>
+	<script src="js/contact.js"></script>
 	<script src="js/init.js"></script>
 
 </body>
