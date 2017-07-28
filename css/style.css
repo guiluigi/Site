@@ -28,11 +28,9 @@ p {
 	width: 100%;
 }
 
-.faequipe {
-	font-size: 36px;
+.logoicon {
+	/*font-size: 36px;*/
 	text-align: center;
-	color: #000000;
-	margin-top: 1px;
 }
 
 @media only screen and (max-width: 992px) {

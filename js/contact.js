@@ -1,12 +1,12 @@
-function sendTelegram () {
-	token   = 'ABCD:1234567890';
+function sendTelegram() {
+	token = 'ABCD:1234567890';
 	chat_id = '1234567890';
 	name = (document.getElementById("name").value).toString();
 	user = (document.getElementById("usuario").value).toString();
 	assu = (document.getElementById("assunto").value).toString();
 	text = (document.getElementById("texto").value).toString();
-	msg  = 'Via: Site\nName: ' + name + '\nUser: ' + user + '\nTexto: ' + text + '\n';
-	var url = 'https://api.telegram.org/bot' + token +'/';
+	msg = 'Via: Site\nName: ' + name + '\nUser: ' + user + '\nTexto: ' + text + '\n';
+	var url = 'https://api.telegram.org/bot' + token + '/';
 	url += 'sendMessage';
 	url += '?chat_id=' + encodeURIComponent(chat_id);
 	url += '&text=' + encodeURIComponent(msg);
