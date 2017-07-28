@@ -55,8 +55,9 @@ p {
 	padding: 15% 0;
 	font-size: 6.0em;
 	font-weight: 100;
-	color: white;
+	color: #FFFFFF;
 	text-align: center;
+	text-shadow: 4px 3px 5px #000000;
 }
 
 .icon-block .material-icons {
