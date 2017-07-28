@@ -71,3 +71,7 @@ footer.page-footer {
 .bluetg {
 	background-color: #0088cc !important;
 }
+
+.bluetgtransp {
+	background-color: rgba(0, 136, 204, 0.8) !important;
+}
