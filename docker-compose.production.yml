@@ -1,0 +1,7 @@
+version: '3.2'
+
+services:
+  nginx:
+    deploy:
+      labels:
+        - "traefik.frontend.rule=Host: synko.com.br, www.synko.com.br"
